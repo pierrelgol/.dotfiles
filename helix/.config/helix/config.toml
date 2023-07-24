@@ -1,0 +1,157 @@
+# My two favourite themes, github_dark when feeling normal, hex_steel when I
+# want something more faded.
+# theme = "github_dark_transparent"
+theme = "hex_steel_transparent"
+
+# Basic stuff, like colour, mouse support, deactivation of auto_completion
+# ( I use C-x to open the pop-up if needed usually I only use it for var/
+# func completion ), ruler to format my code and sometimes I use cursorline/
+# cursorcolum.
+[editor]
+
+true-color      = true
+mouse           = true
+cursorline      = true
+cursorcolumn    = true
+auto-completion = false
+auto-save       = true
+rulers          = [80]
+line-number     = "absolute"
+bufferline      = "multiple"
+
+# for more visual hints
+[editor.cursor-shape]
+
+insert = "bar"
+normal = "block"
+select = "underline"
+
+
+[editor.file-picker]
+
+hidden = false
+
+
+[editor.search]
+
+smart-case = false
+
+# I toggle this one on and off depending on the file-type
+[editor.soft-wrap]
+
+enable = false
+
+# Simple but usefull statusline
+[editor.statusline]
+
+left = [
+  "mode",
+  "spacer",
+  "version-control",
+  "spacer",
+  "separator",
+  "file-name",
+  "file-modification-indicator"
+]
+right = [
+  "spinner",
+  "spacer",
+  "workspace-diagnostics",
+  "separator",
+  "spacer",
+  "diagnostics",
+  "position",
+  "file-encoding",
+  "file-line-ending",
+  "file-type"
+]
+separator = "|"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+#indent guide to help with brackets, and indent
+[editor.indent-guides]
+
+render      = true
+character   = "|"
+skip-levels = 0
+
+
+# deactivate most of the LSP functionalities that's personal preference
+[editor.lsp]
+
+enable                      = true
+display-messages            = false
+auto-signature-help	        = false
+display-inlay-hints	        = false
+display-signature-help-docs	=	false
+snippets                    = false
+
+# ESC to to collapse cursors and selection.
+# RET to be more inline with insert behaviour
+# TAB / S-TAB to navigate buffer more easily in Normal mode
+# J / K added align_view_center to center the navigation ( personal preference )
+# C-(hjkl) / to quickly expand selection for copy/paste
+[keys.normal]
+
+esc   = ["collapse_selection", "keep_primary_selection"]
+ret   = ["open_below", "normal_mode"]
+tab   = ":bn"
+S-tab = ":bp"
+l     = ["move_char_right"]
+h     = ["move_char_left"]
+k     = ["move_line_up","align_view_center"]
+j     = ["move_line_down","align_view_center"]
+"{"   = ["goto_prev_paragraph", "collapse_selection"]
+"}"   = ["goto_next_paragraph", "collapse_selection"]
+C-h   = "select_prev_sibling"
+C-j   = "shrink_selection"
+C-k   = "expand_selection"
+C-l   = "select_next_sibling"
+
+# Nice little shorcut found on github to open config/languages and reload
+[keys.normal.space.c]
+
+r = [":w", ":config-reload"]
+o = ":config-open"
+l = ":o ~/.config/helix/languages.toml"
+
+# JK in insert mode to go into Normal mode ( Personal preference )
+[keys.insert.j]
+
+k = "normal_mode"
+
+
+# C-(b/e) / Those are my most important shortcut, I really like to stay
+#in insert mode and having shortcut to quickly navigate to common places
+#( line_end / line_start ) is a life saver for me
+# C-(d/u) Very useful to quickly move in long files
+# C-(h/j/k/l) Those are really usefull if you just need to move a few characters
+[keys.insert]
+
+C-b      = ["insert_at_line_start"]
+C-e      = ["insert_at_line_end"]
+C-l      = ["move_char_right"]
+C-h      = ["move_char_left"]
+C-k      = ["move_line_up","align_view_center"]
+C-j      = ["move_line_down","align_view_center"]
+C-d      = ["half_page_down", "goto_window_center"]
+C-u      = ["half_page_up", "goto_window_center"]
+
+# quickly select for copy/paste
+[keys.select."]"]
+"]" = "goto_next_paragraph"
+
+[keys.select."["]
+"[" = "goto_prev_paragraph"
+
+# to learn good habits
+up       = "no_op"
+down     = "no_op"
+left     = "no_op"
+right    = "no_op"
+pageup   = "no_op"
+pagedown = "no_op"
+home     = "no_op"
+end      = "no_op"

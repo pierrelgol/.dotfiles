@@ -1,0 +1,8 @@
+[[language]]
+name = "c"
+scope = "source.c"
+injection-regex = "c"
+file-types = ["c","h"]
+roots = []
+comment-token = "//"
+indent = { tab-width = 4, unit = "\t" }
