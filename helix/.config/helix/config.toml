@@ -1,7 +1,7 @@
 # My two favourite themes, github_dark when feeling normal, hex_steel when I
 # want something more faded.
-# theme = "github_dark_transparent"
-theme = "hex_steel_transparent"
+theme = "github_dark_transparent"
+# theme = "hex_steel_transparent"
 
 # Basic stuff, like colour, mouse support, deactivation of auto_completion
 # ( I use C-x to open the pop-up if needed usually I only use it for var/
@@ -132,6 +132,8 @@ k = "normal_mode"
 
 C-b      = ["insert_at_line_start"]
 C-e      = ["insert_at_line_end"]
+C-p      = ["move_prev_word_start"]
+C-n      = ["move_next_word_end"]
 C-l      = ["move_char_right"]
 C-h      = ["move_char_left"]
 C-k      = ["move_line_up","align_view_center"]
