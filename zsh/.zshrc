@@ -4,7 +4,6 @@ ZSH_THEME="robbyrussell"
 CASE_SENSITIVE="true"
 zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 zstyle ':omz:update' frequency 30
-# plugins=(git)
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting)
 
 
@@ -16,8 +15,6 @@ export LANG=en_US.UTF-8
    export EDITOR='hx'
  fi
 
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls="lsd -a"
 alias lf="lfcd"
 
@@ -82,6 +79,4 @@ lfcd () {
         fi
     fi
 }
-
-eval $(ssh-agent)
-skhd --start-service
+SHELL=/bin/bash skhd --start-service

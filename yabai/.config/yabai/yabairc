@@ -1,6 +1,5 @@
 #!/usr/bin/env sh
 
-
 yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
 sudo yabai --load-sa
 
@@ -27,16 +26,16 @@ yabai -m config mouse_action2                resize
 
 # general space settings
 yabai -m config layout                       bsp
-yabai -m config top_padding                  34
+yabai -m config top_padding                  30
 yabai -m config bottom_padding               4
 yabai -m config left_padding                 4
 yabai -m config right_padding                4
 yabai -m config window_gap                   4
 
 # window rules
-yabai -m rule --add app="^iTerm2$" space=1
-yabai -m rule --add app="^Safari$" space=2
-yabai -m rule --add app="^Music$" space=4
+# yabai -m rule --add app="^iTerm2$" space=1
+# yabai -m rule --add app="^Safari$" space=2
+# yabai -m rule --add app="^Music$" space=4
 
 # unmanaged windows
 yabai -m rule --add app="^System Preferences$" manage=off

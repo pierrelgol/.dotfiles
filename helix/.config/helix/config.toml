@@ -7,6 +7,7 @@ theme = "github_dark_transparent"
 # ( I use C-x to open the pop-up if needed usually I only use it for var/
 # func completion ), ruler to format my code and sometimes I use cursorline/
 # cursorcolum.
+
 [editor]
 
 true-color      = true
@@ -110,6 +111,16 @@ C-j   = "shrink_selection"
 C-k   = "expand_selection"
 C-l   = "select_next_sibling"
 
+# to learn good habits
+up       = "no_op"
+down     = "no_op"
+left     = "no_op"
+right    = "no_op"
+pageup   = "no_op"
+pagedown = "no_op"
+home     = "no_op"
+end      = "no_op"
+
 # Nice little shorcut found on github to open config/languages and reload
 [keys.normal.space.c]
 
@@ -141,13 +152,6 @@ C-j      = ["move_line_down","align_view_center"]
 C-d      = ["half_page_down", "goto_window_center"]
 C-u      = ["half_page_up", "goto_window_center"]
 
-# quickly select for copy/paste
-[keys.select."]"]
-"]" = "goto_next_paragraph"
-
-[keys.select."["]
-"[" = "goto_prev_paragraph"
-
 # to learn good habits
 up       = "no_op"
 down     = "no_op"
@@ -157,3 +161,11 @@ pageup   = "no_op"
 pagedown = "no_op"
 home     = "no_op"
 end      = "no_op"
+
+# quickly select for copy/paste
+[keys.select."]"]
+"]" = "goto_next_paragraph"
+
+[keys.select."["]
+"[" = "goto_prev_paragraph"
+
