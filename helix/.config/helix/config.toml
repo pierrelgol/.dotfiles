@@ -1,7 +1,7 @@
 # My two favourite themes, github_dark when feeling normal, hex_steel when I
 # want something more faded.
-theme = "github_dark_transparent"
-# theme = "hex_steel_transparent"
+# theme = "github_dark_transparent"
+theme = "hex_steel_transparent"
 
 # Basic stuff, like colour, mouse support, deactivation of auto_completion
 # ( I use C-x to open the pop-up if needed usually I only use it for var/
@@ -14,7 +14,7 @@ true-color      = true
 mouse           = true
 cursorline      = true
 cursorcolumn    = true
-auto-completion = false
+auto-completion = true
 auto-save       = true
 rulers          = [80]
 line-number     = "absolute"
@@ -83,11 +83,11 @@ skip-levels = 0
 [editor.lsp]
 
 enable                      = true
-display-messages            = false
-auto-signature-help	        = false
-display-inlay-hints	        = false
-display-signature-help-docs	=	false
-snippets                    = false
+display-messages            = true
+auto-signature-help	        = true
+display-inlay-hints	        = true
+display-signature-help-docs	=	true
+snippets                    = true
 
 # ESC to to collapse cursors and selection.
 # RET to be more inline with insert behaviour

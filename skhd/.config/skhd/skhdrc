@@ -1,4 +1,5 @@
 ## Navigation (lalt - ...)
+
 # Space Navigation (four spaces per display): lalt - {1, 2, 3, 4}
 lalt - 1 : SPACES=($(yabai -m query --displays --display | jq '.spaces[]')) && [[ -n $SPACES[1] ]] && yabai -m space --focus $SPACES[1]
 lalt - 2 : SPACES=($(yabai -m query --displays --display | jq '.spaces[]')) && [[ -n $SPACES[2] ]] && yabai -m space --focus $SPACES[2]
@@ -17,26 +18,6 @@ shift + lalt - j : yabai -m window --warp south || $(yabai -m window --display s
 shift + lalt - k : yabai -m window --warp north || $(yabai -m window --display north && sketchybar --trigger windows_on_spaces && yabai -m display --focus north) || yabai -m window --move rel:0:-10
 shift + lalt - l : yabai -m window --warp east || $(yabai -m window --display east && sketchybar --trigger windows_on_spaces && yabai -m display --focus east && yabai -m window --warp first) || yabai -m window --move rel:10:0
 
-# Toggle split orientation of the selected windows node: shift + lalt - s
-shift + lalt - s : yabai -m window --toggle split
-
-# Moving windows between spaces: shift + lalt - {1, 2, 3, 4, p, n } (Assumes 4 Spaces Max per Display)
-shift + lalt - 1 : SPACES=($(yabai -m query --displays --display | jq '.spaces[]')) && [[ -n $SPACES[1] ]] \
-                  && yabai -m window --space $SPACES[1] \
-                  && sketchybar --trigger windows_on_spaces
-
-shift + lalt - 2 : SPACES=($(yabai -m query --displays --display | jq '.spaces[]')) && [[ -n $SPACES[2] ]] \
-                  && yabai -m window --space $SPACES[2] \
-                  && sketchybar --trigger windows_on_spaces
-
-shift + lalt - 3 : SPACES=($(yabai -m query --displays --display | jq '.spaces[]')) && [[ -n $SPACES[3] ]] \
-                  && yabai -m window --space $SPACES[3] \
-                  && sketchybar --trigger windows_on_spaces
-
-shift + lalt - 4 : SPACES=($(yabai -m query --displays --display | jq '.spaces[]')) && [[ -n $SPACES[4] ]] \
-                  && yabai -m window --space $SPACES[4] \
-                  && sketchybar --trigger windows_on_spaces
-
 shift + lalt - p : yabai -m window --space prev && yabai -m space --focus prev && sketchybar --trigger windows_on_spaces
 shift + lalt - n : yabai -m window --space next && yabai -m space --focus next && sketchybar --trigger windows_on_spaces
 
@@ -46,14 +27,23 @@ ctrl + lalt - j    : yabai -m window --resize bottom:0:100 || yabai -m window --
 ctrl + lalt - k    : yabai -m window --resize bottom:0:-100 || yabai -m window --resize top:0:-100
 ctrl + lalt - l    : yabai -m window --resize right:100:0 || yabai -m window --resize left:100:0
 
-# toggle window fullscreen zoom
-alt - f : yabai -m window --toggle zoom-fullscreen
 # toggle window native fullscreen
 shift + alt - f : yabai -m window --toggle native-fullscreen
+# Toggle split orientation of the selected windows node: shift + lalt - s
+shift + lalt - s : yabai -m window --toggle split
+# toggle desktop offset
+alt - a : yabai -m space --toggle padding --toggle gap
 
-# toggle float / unfloat window and center on screen
-alt - t : yabai -m window --toggle float;\
-          yabai -m window --grid 4:4:1:1:2:2
+
+# Stack
+ctrl + alt - p : yabai -m window --focus stack.prev || yabai -m window --focus stack.last
+ctrl + alt - n : yabai -m window --focus stack.next || yabai -m window --focus stack.first
+
+# change layout of desktop
+ctrl + alt - a : yabai -m space --layout bsp
+ctrl + alt - d : yabai -m space --layout stack
+ctrl + alt - s : yabai -m space --layout $(yabai -m query --spaces --space | jq -r 'if .type == "bsp" then "stack" else "bsp" end')
+
 
 # toggle sticky
 alt - g : yabai -m window --toggle sticky

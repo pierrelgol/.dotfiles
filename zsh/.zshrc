@@ -15,8 +15,10 @@ export LANG=en_US.UTF-8
    export EDITOR='hx'
  fi
 
+alias z="~/zig_0.11.0/zig"
 alias ls="lsd -a"
 alias lf="lfcd"
+alias m="make"
 
 nn ()
 {
