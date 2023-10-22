@@ -1,7 +1,10 @@
 # My two favourite themes, github_dark when feeling normal, hex_steel when I
 # want something more faded.
 # theme = "github_dark_transparent"
-theme = "hex_steel_transparent"
+# theme = "dark_plus"
+theme = "gruvbox"
+# theme = "hex_steel_transparent"
+# theme = "ying"
 
 # Basic stuff, like colour, mouse support, deactivation of auto_completion
 # ( I use C-x to open the pop-up if needed usually I only use it for var/
@@ -10,6 +13,8 @@ theme = "hex_steel_transparent"
 
 [editor]
 
+idle-timeout    = 1
+scrolloff       = 999 
 true-color      = true
 mouse           = true
 cursorline      = true
@@ -67,9 +72,9 @@ right = [
   "file-type"
 ]
 separator = "|"
-mode.normal = "NORMAL"
-mode.insert = "INSERT"
-mode.select = "SELECT"
+mode.normal = "N"
+mode.insert = "I"
+mode.select = "S"
 
 #indent guide to help with brackets, and indent
 [editor.indent-guides]
@@ -85,7 +90,7 @@ skip-levels = 0
 enable                      = true
 display-messages            = true
 auto-signature-help	        = true
-display-inlay-hints	        = true
+display-inlay-hints	        = false
 display-signature-help-docs	=	true
 snippets                    = true
 
@@ -128,12 +133,6 @@ r = [":w", ":config-reload"]
 o = ":config-open"
 l = ":o ~/.config/helix/languages.toml"
 
-# JK in insert mode to go into Normal mode ( Personal preference )
-[keys.insert.j]
-
-k = "normal_mode"
-
-
 # C-(b/e) / Those are my most important shortcut, I really like to stay
 #in insert mode and having shortcut to quickly navigate to common places
 #( line_end / line_start ) is a life saver for me
@@ -141,16 +140,17 @@ k = "normal_mode"
 # C-(h/j/k/l) Those are really usefull if you just need to move a few characters
 [keys.insert]
 
-C-b      = ["insert_at_line_start"]
-C-e      = ["insert_at_line_end"]
-C-p      = ["move_prev_word_start"]
-C-n      = ["move_next_word_end"]
-C-l      = ["move_char_right"]
-C-h      = ["move_char_left"]
-C-k      = ["move_line_up","align_view_center"]
-C-j      = ["move_line_down","align_view_center"]
-C-d      = ["half_page_down", "goto_window_center"]
-C-u      = ["half_page_up", "goto_window_center"]
+C-backspace = ["delete_word_backward"]
+C-b         = ["insert_at_line_start"]
+C-e         = ["insert_at_line_end"]
+C-p         = ["move_prev_word_start"]
+C-n         = ["move_next_word_end"]
+C-l         = ["move_char_right"]
+C-h         = ["move_char_left"]
+C-k         = ["move_line_up","align_view_center"]
+C-j         = ["move_line_down","align_view_center"]
+C-d         = ["half_page_down", "goto_window_center"]
+C-u         = ["half_page_up", "goto_window_center"]
 
 # to learn good habits
 up       = "no_op"

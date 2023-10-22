@@ -36,9 +36,11 @@
 	hunk-header-decoration-style = magenta box
 	minus-empty-line-marker-style = normal normal
 	plus-empty-line-marker-style = normal normal
-	line-numbers-right-format = "{np:^4}│ "
+	line-numbers-right-format = "{np:^4}│ ":
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
+[core]
+	excludesfile = /Users/plgol.perso/.gitignore_global

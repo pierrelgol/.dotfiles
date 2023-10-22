@@ -4,8 +4,10 @@ ZSH_THEME="robbyrussell"
 CASE_SENSITIVE="true"
 zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 zstyle ':omz:update' frequency 30
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-vi-mode)
 
+BLK="04" CHR="04" DIR="04" EXE="00" REG="00" HARDLINK="00" SYMLINK="06" MISSING="00" ORPHAN="01" FIFO="0F" SOCK="0F" OTHER="02"
+export NNN_FCOLORS="$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SOCK$OTHER"
 
 source $ZSH/oh-my-zsh.sh
 export LANG=en_US.UTF-8
@@ -14,11 +16,6 @@ export LANG=en_US.UTF-8
  else
    export EDITOR='hx'
  fi
-
-alias z="~/zig_0.11.0/zig"
-alias ls="lsd -a"
-alias lf="lfcd"
-alias m="make"
 
 nn ()
 {
@@ -82,3 +79,27 @@ lfcd () {
     fi
 }
 SHELL=/bin/bash skhd --start-service
+
+source /Users/plgol.perso/.config/broot/launcher/bash/br
+# export USER=plgol.perso
+export USER=pollivie
+export MAIL=pollivie@student.42.fr
+
+alias comp="cc -Wall -Wextra -Werror -ggdb *.c -o main && ./main"
+alias compdbg="cc -Wall -Wextra -Werror -ggdb *.c -o main && lldb ./main" 
+alias form="python3 -m c_formatter_42 < *.c"
+alias formh="python3 -m c_formatter_42 < *.h"
+alias sd="cd ~ && cd \$(find * -type d | fzf)"
+alias ls="exa"
+alias cat="bat"
+alias z="~/zig_0.11.0/zig"
+alias m="make"
+alias zb="zig build"
+alias zt="zig test *.zig"
+alias zr="zig run *.zig"
+alias zbr="zig build run"
+alias zbt="zig build test"
+
+# opam configuration
+[[ ! -r /Users/plgol.perso/.opam/opam-init/init.zsh ]] || source /Users/plgol.perso/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
+export PATH=$PATH:opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/bin
