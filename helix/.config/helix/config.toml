@@ -18,7 +18,7 @@ auto-save       = true
 rulers          = [80]
 line-number     = "absolute"
 bufferline      = "multiple"
-jump-label-alphabet = "eirsaotndhfuywgm(cplbjvkx)z_"
+# jump-label-alphabet = "eirsaotndhfuywgm(cplbjvkx)z_"
 
 [editor.smart-tab]
 enable = false
