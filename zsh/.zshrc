@@ -1,8 +1,11 @@
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="jonathan" # set by `omz`
+ZSH_THEME="refined" # set by `omz`
 CASE_SENSITIVE="true"
 export PATH=$PATH:~/.cargo/bin:
+export PATH=$PATH:~/local/bin:
+export PATH=$PATH:/Applications/Ghostty.app/Contents/MacOS
+
 export EDITOR=hx
 zstyle ':omz:update' mode reminder
 zstyle ':omz:update' frequency 30
@@ -49,8 +52,8 @@ alias cbench='hyperfine --warmup 3 --min-runs 5 "./main"'
 
 [[ ! -r /Users/plgol.perso/.opam/opam-init/init.zsh ]] || source /Users/plgol.perso/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
 
-export USER=plgol.perso
-# export USER=pollivie
+# export USER=plgol.perso
+export USER=pollivie
 export MAIL=pollivie@student.42.fr
 
 source $ZSH/oh-my-zsh.sh
