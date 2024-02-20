@@ -4,6 +4,7 @@ theme = "rose_pine_moon"
 
 [editor]
 
+
 idle-timeout       = 5
 scrolloff          = 7
 scroll-lines       = 5
@@ -20,6 +21,7 @@ undercurl          = true
 line-number        = "absolute"
 bufferline         = "multiple"
 gutters            = ["diagnostics","line-numbers","spacer"]
+# jump-label-alphabet = "eirsaotndhfuywgm(cplbjvkx)z_"
 
 [editor.indent-guides]
 
@@ -72,7 +74,7 @@ enable = false
 left = [ "mode", "spinner", "read-only-indicator", "file-modification-indicator"]
 center = ["file-name"]
 right = ["workspace-diagnostics", "diagnostics", "position", "file-encoding", "file-line-ending", ]
-separator = "||"
+separator = "|"
 mode.normal = "Normal"
 mode.insert = "Insert"
 mode.select = "Select"
@@ -110,24 +112,11 @@ l = ":o ~/.config/helix/languages.toml"
 C-backspace = ["delete_word_backward"]
 C-b         = ["insert_at_line_start"]
 C-e         = ["insert_at_line_end"]
-C-p         = ["move_prev_word_start"]
-C-n         = ["move_next_word_end"]
 C-l         = ["move_char_right","align_view_center"]
 C-h         = ["move_char_left","align_view_center"]
 C-k         = ["move_line_up","align_view_center"]
 C-j         = ["move_line_down","align_view_center"]
-C-d         = ["half_page_down", "goto_window_center"]
-C-u         = ["half_page_up", "goto_window_center"]
 
-# to learn good habits
-up       = "no_op"
-down     = "no_op"
-left     = "no_op"
-right    = "no_op"
-pageup   = "no_op"
-pagedown = "no_op"
-home     = "no_op"
-end      = "no_op"
 
 [keys.select."]"]
 "]" = "goto_next_paragraph"
