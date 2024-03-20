@@ -4,7 +4,7 @@ ZSH_THEME="refined" # set by `omz`
 CASE_SENSITIVE="true"
 export PATH=$PATH:~/.cargo/bin:
 export PATH=$PATH:~/local/bin:
-export PATH=$PATH:/Applications/Ghostty.app/Contents/MacOS
+export PATH=$PATH:/Applications/Ghostty.app/Contents/MacOS:
 
 export EDITOR=hx
 zstyle ':omz:update' mode reminder
@@ -24,27 +24,6 @@ function ya() {
 	rm -f -- "$tmp"
 }
 
-alias nn="ya"
-alias comp="cc -Wall -Wextra -Werror -g3 *.c -o main && ./main"
-alias form="python3 -m c_formatter_42 < *.c *.c"
-alias formh="python3 -m c_formatter_42 < *.h *.h"
-alias sd="cd ~ && cd \$(find * -type d | fzf)"
-alias ls="lsd"
-alias m="make"
-alias zb="zig build"
-alias zt="zig test *.zig"
-alias zr="zig run *.zig"
-alias zbr="zig build run"
-alias zbt="zig build test"
-alias lz="lazygit"
-alias or="omz reload"
-alias no="norminette"
-alias sc="grep -r"
-alias sht="sh *.sh"
-alias cbench='hyperfine --warmup 3 --min-runs 5 "./main"'
-alias run="./run.sh"
-alias dbg="./dbg.sh"
-
 # export USER=plgol.perso
 export USER=pollivie
 export MAIL=pollivie@student.42.fr
@@ -52,9 +31,37 @@ export MAIL=pollivie@student.42.fr
 source $ZSH/oh-my-zsh.sh
 export PATH="/opt/homebrew/opt/swift/bin:$PATH"
 
+alias cat="bat"
+alias cbench='hyperfine --warmup 3 --min-runs 5 "./main"'
+alias comp="cc -Wall -Wextra -Werror -g3 *.c -o main && ./main"
+alias dbg="./dbg.sh"
+alias form="python3 -m c_formatter_42 < *.c *.c"
+alias formh="python3 -m c_formatter_42 < *.h *.h"
+alias l="eza --long --header --icons --git --tree --level=2"
+alias la="eza --long --header --icons --git --tree --level=2"
+alias lz="lazygit"
+alias m="make"
+alias nn="ya"
+alias no="norminette"
+alias or="omz reload"
+alias run="./run.sh"
+alias s="eza --long --header --icons --git --tree --level=2"
+alias sc="grep -r"
+alias sd="cd ~/workspace/ && cd \$(find * -type d | fzf)"
+alias sfc="cd \$(find * -type d | fzf -ei --algo=v2 --query 'cpp$ | zig$ | c$ |h$ | cpp$ | hhp$')"
+alias sht="sh *.sh"
+alias zb="zig build"
+alias zbr="zig build run"
+alias zbt="zig build test"
+alias zr="zig run *.zig"
+alias zt="zig test *.zig"
+
+
 # bun completions
 [ -s "/Users/plgol/.bun/_bun" ] && source "/Users/plgol/.bun/_bun"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+eval "$(atuin init zsh)"

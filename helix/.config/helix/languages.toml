@@ -4,7 +4,7 @@ scope = "source.c"
 injection-regex = ".c"
 file-types = ["c", "h"]
 roots = ["Makefile","run.sh","build.zig"]
-auto-format = true
+auto-format = false
 comment-token = "//"
 indent = { tab-width = 4, unit = " " }
 formatter = { command = "python3 -m c_formatter_42", args = [""]}
