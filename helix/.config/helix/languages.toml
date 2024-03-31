@@ -1,63 +1,12 @@
 [[language]]
 name = "c"
 scope = "source.c"
-injection-regex = ".c"
-file-types = ["c", "h"]
+file-types = ["c","h"]
 roots = ["Makefile","run.sh","build.zig"]
-auto-format = false
-comment-token = "//"
-indent = { tab-width = 4, unit = " " }
-formatter = { command = "python3 -m c_formatter_42", args = [""]}
-
-
-[[language]]
-name = "zig"
-scope = "source.zig"
-injection-regex = "zig"
-file-types = ["zig"]
-roots = ["build.zig"]
-auto-format = true
-comment-token = "//"
-language-servers = [ "zls" ]
+diagnostic-severity = "Error"
+block-comment-tokens = {start = "/*", end = "*/"}
 indent = { tab-width = 4, unit = "\t" }
-formatter = { command = "zig" , args = ["fmt", "--stdin"] }
+formatter = { command = "pipx run c_formatter_42", args = [""]}
 
-[language.debugger]
-name = "lldb-vscode"
-transport = "stdio"
-command = "lldb-vscode"
-
-[[language.debugger.templates]]
-name = "binary"
-request = "launch"
-completion = [ { name = "binary", completion = "filename" } ]
-args = { console = "internalConsole", program = "{0}" }
-
-[[language.debugger.templates]]
-name = "attach"
-request = "attach"
-completion = [ "pid" ]
-args = { console = "internalConsole", pid = "{0}" }
-
-[[language.debugger.templates]]
-name = "gdbserver attach"
-request = "attach"
-completion = [ { name = "lldb connect url", default = "connect://localhost:3333" }, { name = "file", completion = "filename" }, "pid" ]
-args = { console = "internalConsole", attachCommands = [ "platform select remote-gdb-server", "platform connect {0}", "file {1}", "attach {2}" ] }
-
-[[grammar]]
-name = "zig"
-source = { git = "https://github.com/maxxnino/tree-sitter-zig", rev = "0d08703e4c3f426ec61695d7617415fff97029bd" }
-[[grammar]]
-name = "c"
-source = { git = "https://github.com/tree-sitter/tree-sitter-c", rev = "7175a6dd5fc1cee660dce6fe23f6043d75af424a" }
-
-[[language]]
-name = "cpp"
-scope = "source.cpp"
-injection-regex = "cpp"
-file-types = ["cc", "hh", "c++", "cpp", "hpp", "h", "ipp", "tpp", "cxx", "hxx", "ixx", "txx", "ino", "C", "H", "cu", "cuh", "cppm", "h++", "ii", "inl", { suffix = ".hpp.in" }, { suffix = ".h.in" }]
-roots = []
-comment-token = "//"
-language-servers = [ "clangd" ]
-indent = { tab-width = 4, unit = "\t" }
+[language-server.clangd]
+command = "clangd"
