@@ -7,6 +7,12 @@ diagnostic-severity = "Error"
 block-comment-tokens = {start = "/*", end = "*/"}
 indent = { tab-width = 4, unit = "\t" }
 formatter = { command = "pipx run c_formatter_42", args = [""]}
+language-servers = ["gpt", "clangd"]
+
+[language-server.gpt]
+command = "bun"
+args = ["--inspect=0.0.0.0:6499", "run", "helix-gpt", "--handler", "copilot"]
+timeout = 30
 
 [language-server.clangd]
 command = "clangd"
