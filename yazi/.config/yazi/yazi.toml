@@ -25,7 +25,7 @@ ueberzug_offset = [ 0, 0, 0, 0 ]
 
 [opener]
 edit = [
-	{ run = 'hx "$@"', block = true,  for = "unix" },
+	{ run = '$EDITOR "$@"', block = true,  for = "unix" },
 	{ run = 'code "%*"',    orphan = true, for = "windows" },
 ]
 open = [

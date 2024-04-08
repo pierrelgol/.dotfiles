@@ -6,6 +6,10 @@ export EDITOR=nvim
 export USER=pollivie
 export MAIL=pollivie@student.42.fr
 export CLANGD_FLAGS="--enable-config --header-insertion=never"
+source ~/private.sh
+export USER42="pollivie"
+export EMAIL42="pollivie@student.42.fr"
+export SCHOOL42="42"
 
 plugins=(z git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-vi-mode)
 
