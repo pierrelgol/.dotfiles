@@ -7,12 +7,8 @@ diagnostic-severity = "Error"
 block-comment-tokens = {start = "/*", end = "*/"}
 indent = { tab-width = 4, unit = "\t" }
 formatter = { command = "pipx run c_formatter_42", args = [""]}
-language-servers = ["gpt", "clangd"]
+language-servers = ["clangd"]
 
-[language-server.gpt]
-command = "bun"
-args = ["--inspect=0.0.0.0:6499", "run", "helix-gpt", "--handler", "copilot"]
-timeout = 30
 
 [language-server.clangd]
 command = "clangd"
@@ -21,17 +17,12 @@ command = "clangd"
 name = "zig"
 scope = "source.zig"
 file-types = ["zig"]
-roots = ["build.zig","build.zig.zon"]
+roots = ["build.zig","build.zig.zon", "zls.build.json"]
 diagnostic-severity = "Error"
 auto-format = false
 comment-token = "//"
 indent = { tab-width = 4, unit = "\t" }
-language-servers = ["zigpt", "zls"]
-
-[language-server.zigpt]
-command = "bun"
-args = ["--inspect=0.0.0.0:6499", "run", "helix-gpt", "--handler", "copilot"]
-timeout = 30
+language-servers = ["zls"]
 
 [language-server.zls]
 command = "zls"

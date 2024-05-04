@@ -32,7 +32,7 @@ mode.select = "S"
 
 [editor.lsp]
 auto-signature-help	        = true
-display-inlay-hints	        = false
+display-inlay-hints	        = true
 display-messages            = true
 display-signature-help-docs	=	true
 enable                      = true
@@ -93,6 +93,10 @@ X     = ["select_line_above"]
 
 [keys.normal.space.q]
   q = [":reload-all",":write-quit-all!"]
+
+[keys.normal.space.i]
+f = ":set lsp.display-inlay-hints false"
+t = ":set lsp.display-inlay-hints true"
 
 [keys.normal.space.l]
 s = ":lsp-stop"
