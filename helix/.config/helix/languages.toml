@@ -23,6 +23,7 @@ scope = "source.zig"
 file-types = ["zig"]
 roots = ["build.zig","build.zig.zon"]
 diagnostic-severity = "Error"
+auto-format = false
 comment-token = "//"
 indent = { tab-width = 4, unit = "\t" }
 language-servers = ["zigpt", "zls"]

@@ -32,7 +32,7 @@ cursor-text =
 cursor-click-to-move = true
 mouse-hide-while-typing = false
 mouse-shift-capture = false
-background-opacity = 0.8
+background-opacity = 1
 background-blur-radius = 64
 unfocused-split-opacity = 0.8
 unfocused-split-fill = 
@@ -68,7 +68,7 @@ keybind = super+v=paste_from_clipboard
 keybind = super+alt+down=goto_split:bottom
 keybind = super+equal=increase_font_size:1
 keybind = super+shift+up=jump_to_prompt:-1
-keybind = super+n=new_window
+keybind = super+shift+n=new_window
 keybind = super+ctrl+up=resize_split:up,10
 keybind = super+ctrl+left=resize_split:left,10
 keybind = super+ctrl+right=resize_split:right,10
