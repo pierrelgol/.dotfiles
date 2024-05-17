@@ -19,15 +19,15 @@ auto-save                          = true
 bufferline                         = "always"
 color-modes                        = true
 completion-replace                 = true
-#completion-timeout                = 250
+completion-timeout                = 250
 completion-trigger-len             = 1
 cursorcolumn                       = true
 cursorline                         = true
 default-line-ending                = "lf"
 idle-timeout                       = 250
-# indent-heuristic                   = "hybrid"
+indent-heuristic                   = "hybrid"
 insert-final-newline               = true
-# jump-label-alphabet                = "qweruiopasdfhjkl"
+jump-label-alphabet                = "qweruiopasdfhjkl"
 line-number                        = "relative"
 middle-click-paste                 = true
 mouse                              = true
@@ -53,7 +53,7 @@ ignore                             = true
 git-ignore                         = true
 git-global                         = true
 git-exclude                        = true
-max-depth                          = 3
+max-depth                          = 2
 
 [editor.gutters]
 layout                             = ["line-numbers","diagnostics","diff"]
@@ -96,7 +96,7 @@ mode.select                        = "SELECT"
 
 [keys.normal]
 esc      = ["collapse_selection", "keep_primary_selection"]
-# ret    = ["align_view_center", "goto_words"]
+ret      = ["align_view_center", "goto_word"]
 S-tab    = [":bp"]
 tab      = [":bn"]
 S        = ["surround_add"]
