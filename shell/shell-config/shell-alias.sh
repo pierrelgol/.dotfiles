@@ -81,6 +81,7 @@ fi
 if command -v git &> /dev/null; then
   alias g='git'
   alias gaa='git add .'
+  alias gcmsg='git commit -m'
   alias gst='git status'
   alias gl='git pull'
   alias gup='git fetch && git rebase'
