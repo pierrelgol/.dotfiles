@@ -1,0 +1,51 @@
+dialect = "us"
+timezone = "local"
+auto_sync = true
+update_check = true
+sync_address = "https://api.atuin.sh"
+sync_frequency = "10m"
+search_mode = "fuzzy"
+workspaces = false
+filter_mode_shell_up_key_binding = "global"
+search_mode_shell_up_key_binding = "fuzzy"
+style = "auto"
+invert = false
+show_preview = true
+exit_mode = "return-original"
+scroll_context_lines = 1
+history_format = "{time}\t{command}\t{duration}"
+max_preview_height = 4
+enter_accept = true
+keymap_mode = "auto"
+network_connect_timeout = 5
+network_timeout = 5
+local_timeout = 5
+prefers_reduced_motion = false
+
+common_subcommands = [
+  "apt",
+  "brew",
+  "nix",
+  "zig",
+  "make",
+  "cargo",
+  "composer",
+  "dnf",
+  "docker",
+  "git",
+  "go",
+  "ip",
+  "kubectl",
+  "nix",
+  "nmcli",
+  "npm",
+  "pecl",
+  "pnpm",
+  "podman",
+  "port",
+  "systemctl",
+  "tmux",
+  "yarn",
+]
+[dotfiles]
+enabled = true
