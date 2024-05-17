@@ -4,7 +4,7 @@ scope = "source.c"
 file-types = ["c","h"]
 roots = ["Makefile","run.sh","build.zig"]
 diagnostic-severity = "Error"
-block-comment-tokens = {start = "/*", end = "*/"}
+# block-comment-tokens = {start = "/*", end = "*/"}
 indent = { tab-width = 4, unit = "\t" }
 formatter = { command = "pipx run c_formatter_42", args = [""]}
 language-servers = ["clangd"]
