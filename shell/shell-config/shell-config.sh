@@ -41,7 +41,6 @@ autoload -U compinit && compinit
 ###################
 # KEYBINDINGS     #
 ###################
-bindkey -v
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 
@@ -72,6 +71,6 @@ zstyle ':fzf-tab:complete:cd:__zoxide_z:*' fzf-preview 'ls $realpath'
 ################################################################################
 # EVAL                                                                         #
 ################################################################################
-eval "$(zoxide init --cmd cd zsh)"
+eval "$(zoxide init zsh)"
 eval "$(atuin init zsh)"
 eval "$(fzf --zsh)"

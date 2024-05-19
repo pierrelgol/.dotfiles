@@ -53,8 +53,10 @@
     desktopManager = {
       gnome.enable = true;
     };
-    layout = "us";
-    xkbVariant = "";
+    xkb = {
+      variant = "";
+      layout = "us";
+    };
   };
 
   # Enable CUPS to print documents.
@@ -91,8 +93,8 @@
   };
 
   # Enable automatic login for the user.
-  services.xserver.displayManager.autoLogin.enable = true;
-  services.xserver.displayManager.autoLogin.user = "pollivie";
+  services.displayManager.autoLogin.enable = true;
+  services.displayManager.autoLogin.user = "pollivie";
 
   # Workaround for GNOME autologin: https://github.com/NixOS/nixpkgs/issues/103746#issuecomment-945091229
   systemd.services."getty@tty1".enable = false;
@@ -107,8 +109,7 @@
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
-  environment.systemPackages = with pkgs; [
-  
+  environment.systemPackages = with pkgs; [  
     alacritty
     alacritty-theme
     asciinema
@@ -144,12 +145,14 @@
     lazygit
     libadwaita
     lldb_18
-    llvmPackages_18.bintools
+    libclang
+    llvmPackages_18.stdenv
     neovim
     openssh
     pipx
     pycritty
     qbittorrent
+    readline
     ripgrep
     rustc
     rustfmt

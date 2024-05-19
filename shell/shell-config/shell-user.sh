@@ -12,6 +12,7 @@ export MAIL=plgol.perso@gmail.com
 export USER42="pollivie"
 export EMAIL42="pollivie@student.42.fr"
 export SCHOOL42="42"
+export CLANGD_FLAGS="--enable-config --header-insertion=never"
 
 ################################################################################
 # CC                                                                           #
@@ -87,7 +88,7 @@ export XDG_DATA_HOME XDG_CONFIG_HOME XDG_STATE_HOME XDG_CACHE_HOME XDG_RUNTIME_D
 # PATH                                                                         #
 ################################################################################
 
-path+=('$HOME/local/bin')
-path+=('$HOME/local/repo')
-path+=('$HOME/.local/bin')
-path+=('$HOME/.local/share/applications')
+path+=('/home/pollivie/local/bin')
+path+=('/home/pollivie/local/repo')
+path+=('/home/pollivie/.local/bin')
+path+=('/home/pollivie/.local/share/applications')

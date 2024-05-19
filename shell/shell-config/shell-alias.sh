@@ -15,7 +15,7 @@ if command -v eza &> /dev/null
 then
   alias ls="eza --color --long --header --icons --git"
   alias la="eza --all --color --long --header --icons --git"
-  alias tree="eza --all --color --long --header --icons --git --tree"
+  alias tree="eza --all --color --icons --git --tree"
 else
   echo "shell: eza not found"
 fi
@@ -42,7 +42,7 @@ fi
 
 if command -v yazi &> /dev/null && declare -F "$YAZI_FUNCTION" > /dev/null
 then
-  alias nn="ya"
+  alias nn="yy"
 else
   echo "shell: yazi or function $YAZI_FUNCTION not found"
 fi

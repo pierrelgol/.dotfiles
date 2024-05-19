@@ -7,8 +7,8 @@ create_dir_if_not_exists() {
   fi
 }
 
-function ya() {
-	local tmp="$(mktemp -t "yazi-cwd.XXXXX")"
+function yy() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
 	yazi "$@" --cwd-file="$tmp"
 	if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
 		cd -- "$cwd"
