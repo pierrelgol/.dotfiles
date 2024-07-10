@@ -20,21 +20,17 @@ else
   echo "shell: eza not found"
 fi
 
-if command -v zig &> /dev/null
-then
   alias zb="zig build"
   alias zbr="zig build run"
   alias zbt="zig build test"
   alias zr="zig run *.zig"
   alias zt="zig test *.zig"
-else
-  echo "shell: zig not found"
-fi
 
 if command -v pipx &> /dev/null
 then
     alias form="pipx run c_formatter_42 < *.c *.c"
     alias formh="pipx run c_formatter_42 < *.h *.h"
+    alias no="pipx run norminette"
 else
   echo "shell: pipx not found"
 fi

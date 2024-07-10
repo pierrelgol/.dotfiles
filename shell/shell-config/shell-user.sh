@@ -92,3 +92,5 @@ path+=('/home/pollivie/local/bin')
 path+=('/home/pollivie/local/repo')
 path+=('/home/pollivie/.local/bin')
 path+=('/home/pollivie/.local/share/applications')
+export BUN_INSTALL="$HOME/.bun"
+export PATH=$BUN_INSTALL/bin:$PATH
