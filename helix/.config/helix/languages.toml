@@ -3,10 +3,19 @@ name = "c"
 scope = "source.c"
 file-types = ["c","h"]
 roots = ["Makefile","run.sh","build.zig"]
-diagnostic-severity = "Error"
+# diagnostic-severity = "Error"
 # block-comment-tokens = {start = "/*", end = "*/"}
-indent = { tab-width = 4, unit = "\t" }
+indent = { tab-width = 8, unit = "\t" }
 formatter = { command = "pipx run c_formatter_42", args = [""]}
+language-servers = ["clangd"]
+
+[[language]]
+name = "cpp"
+scope = "source.cpp"
+file-types = ["cpp","hpp"]
+roots = ["Makefile","run.sh","build.zig"]
+# diagnostic-severity = "Error"
+indent = { tab-width = 8, unit = "\t" }
 language-servers = ["clangd"]
 
 
@@ -18,11 +27,36 @@ name = "zig"
 scope = "source.zig"
 file-types = ["zig"]
 roots = ["build.zig","build.zig.zon", "zls.build.json"]
-diagnostic-severity = "Error"
+# diagnostic-severity = "Error"
 auto-format = false
 comment-token = "//"
-indent = { tab-width = 4, unit = "\t" }
+indent = { tab-width = 8, unit = "\t" }
 language-servers = ["zls"]
 
 [language-server.zls]
 command = "zls"
+
+[[language]]
+name = "rust"
+scope = "source.rust"
+injection-regex = "rs|rust"
+file-types = ["rs"]
+roots = ["Cargo.toml", "Cargo.lock"]
+shebangs = ["rust-script", "cargo"]
+auto-format = true
+comment-tokens = ["//", "///", "//!"]
+block-comment-tokens = [
+  { start = "/*", end = "*/" },
+  { start = "/**", end = "*/" },
+  { start = "/*!", end = "*/" },
+]
+language-servers = [ "rust-analyzer" ]
+indent = { tab-width = 4, unit = "    " }
+persistent-diagnostic-sources = ["rustc", "clippy"]
+
+[language.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'

@@ -111,15 +111,9 @@ C-e      = ["goto_line_end"]
 "*"      = ["move_prev_word_start", "move_next_word_end", "search_selection"]
 
 [keys.normal.space]
-f        = "file_picker_in_current_buffer_directory"
 ","      = ["save_selection", "goto_line_end", ":append-output echo ','", "collapse_selection", "delete_selection", "jump_backward"]
 ";"      = ["save_selection", "goto_line_end", ":append-output echo ';'", "collapse_selection", "delete_selection", "jump_backward"]
 
-[keys.normal.space.q]
-q        = [":reload-all",":write-quit-all!"]
-
-[keys.normal.space.s]
-s        = [":reload-all",":write-all!"]
 
 [keys.normal.space.t]
 a        = ":toggle-option auto-completion"
@@ -150,7 +144,6 @@ pagedown = ["half_page_down"]
 "C-d"    = ["half_page_down"]
 esc      = ["collapse_selection", "normal_mode"]
 c        = ["trim_selections", "change_selection"]
-z        = ["move_next_word_start"]
 ";"      = ["flip_selections"]
 ","      = ["repeat_last_motion"]
 
