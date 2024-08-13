@@ -3,8 +3,7 @@ name = "c"
 scope = "source.c"
 file-types = ["c","h"]
 roots = ["Makefile","run.sh","build.zig"]
-# diagnostic-severity = "Error"
-# block-comment-tokens = {start = "/*", end = "*/"}
+block-comment-tokens = {start = "/*", end = "*/"}
 indent = { tab-width = 8, unit = "\t" }
 formatter = { command = "pipx run c_formatter_42", args = [""]}
 language-servers = ["clangd"]
@@ -14,7 +13,6 @@ name = "cpp"
 scope = "source.cpp"
 file-types = ["cpp","hpp"]
 roots = ["Makefile","run.sh","build.zig"]
-# diagnostic-severity = "Error"
 indent = { tab-width = 8, unit = "\t" }
 language-servers = ["clangd"]
 
@@ -27,8 +25,7 @@ name = "zig"
 scope = "source.zig"
 file-types = ["zig"]
 roots = ["build.zig","build.zig.zon", "zls.build.json"]
-# diagnostic-severity = "Error"
-auto-format = false
+auto-format = true
 comment-token = "//"
 indent = { tab-width = 8, unit = "\t" }
 language-servers = ["zls"]

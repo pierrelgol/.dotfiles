@@ -1,0 +1,65 @@
+# Global .gitignore for Zig, C, C++, Rust
+
+# Zig build artifacts
+.zig-cache/
+zig-cache/
+zig-out/
+
+# Rust build artifacts
+/target/
+/Cargo.lock
+**/*.rs.bk
+
+# C/C++ build artifacts
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# CMake build artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Meson build artifacts
+/build/
+*.ninja
+*.ninja_deps
+*.ninja_log
+
+# VSCode files
+.vscode/
+*.code-workspace
+
+# Other editor/IDE files
+.idea/
+*.iml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+*.log
+
+# MacOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux files
+*~

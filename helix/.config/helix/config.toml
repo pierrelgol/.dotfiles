@@ -19,7 +19,7 @@ auto-save                          = true
 bufferline                         = "always"
 color-modes                        = true
 completion-replace                 = true
-completion-timeout                = 250
+completion-timeout                 = 250
 completion-trigger-len             = 1
 cursorcolumn                       = true
 cursorline                         = true
@@ -27,7 +27,7 @@ default-line-ending                = "lf"
 idle-timeout                       = 250
 indent-heuristic                   = "hybrid"
 insert-final-newline               = true
-jump-label-alphabet                = "qweruiopasdfhjkl"
+jump-label-alphabet                = "asdfghjklweruio"
 line-number                        = "relative"
 middle-click-paste                 = true
 mouse                              = true
@@ -53,7 +53,7 @@ ignore                             = true
 git-ignore                         = true
 git-global                         = true
 git-exclude                        = true
-max-depth                          = 2
+max-depth                          = 5
 
 [editor.gutters]
 layout                             = ["line-numbers","diagnostics","diff"]

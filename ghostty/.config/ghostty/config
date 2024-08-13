@@ -9,93 +9,24 @@ font-style-italic = Regular
 font-style-bold-italic = Regular
 font-feature = 
 font-size = 14
-font-variation = 
-font-variation-bold = 
-font-variation-italic = 
-font-variation-bold-italic = 
-font-codepoint-map = 
-font-thicken = false
-adjust-cell-width = 
-adjust-cell-height = 
-adjust-font-baseline = 
-adjust-underline-position = 
-adjust-underline-thickness = 
-adjust-strikethrough-position = 
-adjust-strikethrough-thickness = 
 grapheme-width-method = unicode
 theme = rose-pine
-cursor-color = 
 cursor-opacity = 1
 cursor-style = block
-cursor-style-blink = 
-cursor-text = 
 cursor-click-to-move = true
 mouse-hide-while-typing = false
 mouse-shift-capture = false
 background-opacity = 1
 background-blur-radius = 64
-unfocused-split-opacity = 0.8
-unfocused-split-fill = 
-command = 
+unfocused-split-opacity = 0.0
 wait-after-command = false
 abnormal-command-exit-runtime = 250
 link-url = true
-fullscreen = true
+fullscreen = false
 title = 
 class = 
 x11-instance-name = 
 working-directory = 
-keybind = super+alt+right=goto_split:right
-keybind = super+plus=increase_font_size:1
-keybind = super+d=new_split:right
-keybind = super+physical:six=goto_tab:6
-keybind = super+comma=open_config
-keybind = super+physical:four=goto_tab:4
-keybind = super+shift+j=write_scrollback_file
-keybind = super+physical:nine=goto_tab:9
-keybind = super+enter=toggle_fullscreen
-keybind = super+shift+enter=toggle_split_zoom
-keybind = super+q=quit
-keybind = super+page_down=scroll_page_down
-keybind = super+end=scroll_to_bottom
-keybind = super+k=clear_screen
-keybind = super+left_bracket=goto_split:previous
-keybind = super+shift+right_bracket=next_tab
-keybind = super+shift+comma=reload_config
-keybind = super+shift+left_bracket=previous_tab
-keybind = super+right_bracket=goto_split:next
-keybind = super+v=paste_from_clipboard
-keybind = super+alt+down=goto_split:bottom
-keybind = super+equal=increase_font_size:1
-keybind = super+shift+up=jump_to_prompt:-1
-keybind = super+shift+n=new_window
-keybind = super+ctrl+up=resize_split:up,10
-keybind = super+ctrl+left=resize_split:left,10
-keybind = super+ctrl+right=resize_split:right,10
-keybind = super+ctrl+f=toggle_fullscreen
-keybind = super+alt+shift+w=close_all_windows
-keybind = super+physical:three=goto_tab:3
-keybind = super+t=new_tab
-keybind = super+page_up=scroll_page_up
-keybind = super+shift+d=new_split:down
-keybind = super+zero=reset_font_size
-keybind = super+physical:five=goto_tab:5
-keybind = super+a=select_all
-keybind = super+physical:seven=goto_tab:7
-keybind = super+ctrl+down=resize_split:down,10
-keybind = super+alt+up=goto_split:top
-keybind = super+physical:two=goto_tab:2
-keybind = super+w=close_surface
-keybind = super+minus=decrease_font_size:1
-keybind = super+shift+down=jump_to_prompt:1
-keybind = super+physical:eight=goto_tab:8
-keybind = super+alt+left=goto_split:left
-keybind = super+home=scroll_to_top
-keybind = alt+shift+equal=equalize_splits
-keybind = super+physical:one=goto_tab:1
-keybind = super+shift+w=close_window
-keybind = super+c=copy_to_clipboard
-keybind = super+alt+i=inspector:toggle
 window-padding-x = 2
 window-padding-y = 2
 window-padding-balance = false
@@ -104,8 +35,6 @@ window-inherit-font-size = true
 window-decoration = true
 window-theme = system
 window-colorspace = srgb
-window-height = 0
-window-width = 0
 window-save-state = default
 window-step-resize = false
 window-new-tab-position = current
@@ -118,19 +47,16 @@ clipboard-paste-bracketed-safe = true
 image-storage-limit = 320000000
 copy-on-select = true
 click-repeat-interval = 0
-config-file = 
 confirm-close-surface = true
 quit-after-last-window-closed = false
 shell-integration = detect
 shell-integration-features = cursor,no-sudo
 osc-color-report-format = 16-bit
 vt-kam-allowed = false
-custom-shader = 
 custom-shader-animation = true
 gtk-single-instance = desktop
 gtk-wide-tabs = true
 gtk-adwaita = true
 desktop-notifications = true
 term = xterm-ghostty
-enquiry-response = 
 
