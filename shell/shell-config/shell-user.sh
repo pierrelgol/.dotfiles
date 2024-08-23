@@ -20,7 +20,7 @@ export CLANGD_FLAGS="--enable-config --header-insertion=never"
 
 if command -v zig > /dev/null
 then
-  export CC="zig cc"
+  export CC="clang"
 elif command -v clang > /dev/null
 then
   export CC="clang"
@@ -92,5 +92,6 @@ path+=('/home/pollivie/local/bin')
 path+=('/home/pollivie/local/repo')
 path+=('/home/pollivie/.local/bin')
 path+=('/home/pollivie/.local/share/applications')
+path+=('/home/pollivie/.cargo/bin')
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH

@@ -1,21 +1,42 @@
 [[language]]
+name = "gas"
+scope = "source.gas"
+file-types = ["s"]
+injection-regex = "gas"
+comment-token = "#"
+indent = { tab-width = 8, unit = "\t" }
+formatter = { command = "asmfmt", args = [""]}
+language-servers = ["asm-lsp"]
+
+[[grammar]]
+name = "gas"
+source = { git = "https://github.com/sirius94/tree-sitter-gas", rev = "60f443646b20edee3b7bf18f3a4fb91dc214259a" }
+
+[language-server.asm-lsp]
+command = "asm-lsp"
+
+[[language]]
 name = "c"
 scope = "source.c"
 file-types = ["c","h"]
 roots = ["Makefile","run.sh","build.zig"]
 block-comment-tokens = {start = "/*", end = "*/"}
 indent = { tab-width = 8, unit = "\t" }
-formatter = { command = "pipx run c_formatter_42", args = [""]}
+formatter = { command = "clang-format", args = [""]}
+diagnostic-severity = "error"
+auto-format = true
 language-servers = ["clangd"]
+# formatter = { command = "pipx run c_formatter_42", args = [""]}
 
 [[language]]
 name = "cpp"
 scope = "source.cpp"
 file-types = ["cpp","hpp"]
 roots = ["Makefile","run.sh","build.zig"]
+diagnostic-severity = "error"
+auto-format = true
 indent = { tab-width = 8, unit = "\t" }
 language-servers = ["clangd"]
-
 
 [language-server.clangd]
 command = "clangd"
@@ -32,6 +53,8 @@ language-servers = ["zls"]
 
 [language-server.zls]
 command = "zls"
+
+
 
 [[language]]
 name = "rust"
@@ -57,3 +80,7 @@ persistent-diagnostic-sources = ["rustc", "clippy"]
 '[' = ']'
 '"' = '"'
 '`' = '`'
+
+
+
+

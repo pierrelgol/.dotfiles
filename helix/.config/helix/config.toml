@@ -19,12 +19,12 @@ auto-save                          = true
 bufferline                         = "always"
 color-modes                        = true
 completion-replace                 = true
-completion-timeout                 = 250
+completion-timeout                 = 5
 completion-trigger-len             = 1
 cursorcolumn                       = true
 cursorline                         = true
 default-line-ending                = "lf"
-idle-timeout                       = 250
+idle-timeout                       = 5
 indent-heuristic                   = "hybrid"
 insert-final-newline               = true
 jump-label-alphabet                = "asdfghjklweruio"
@@ -152,4 +152,3 @@ c        = ["trim_selections", "change_selection"]
 
 [keys.select."["]
 "["      = ["goto_next_paragraph"]
-
