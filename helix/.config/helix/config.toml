@@ -6,6 +6,7 @@
 # THEME           #
 ###################
 theme = "rose_pine"
+# theme = "foo_pine"
 
 ###################
 # CONFIG          #

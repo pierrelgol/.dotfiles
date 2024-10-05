@@ -23,7 +23,7 @@ roots = ["Makefile","run.sh","build.zig"]
 block-comment-tokens = {start = "/*", end = "*/"}
 indent = { tab-width = 8, unit = "\t" }
 formatter = { command = "clang-format", args = [""]}
-diagnostic-severity = "error"
+diagnostic-severity = "Error"
 auto-format = true
 language-servers = ["clangd"]
 # formatter = { command = "pipx run c_formatter_42", args = [""]}
@@ -33,7 +33,7 @@ name = "cpp"
 scope = "source.cpp"
 file-types = ["cpp","hpp"]
 roots = ["Makefile","run.sh","build.zig"]
-diagnostic-severity = "error"
+diagnostic-severity = "Error"
 auto-format = true
 indent = { tab-width = 8, unit = "\t" }
 language-servers = ["clangd"]
