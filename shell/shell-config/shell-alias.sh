@@ -20,11 +20,16 @@ else
   echo "shell: eza not found"
 fi
 
+  alias zr="zig run *.zig"
+  alias zt="zig test *.zig"
   alias zb="zig build"
   alias zbr="zig build run"
   alias zbt="zig build test"
-  alias zr="zig run *.zig"
-  alias zt="zig test *.zig"
+  alias zbc="zig build check"
+  alias zbrw="zig build run --watch"
+  alias zbrwi="zig build run --watch -fincremental"
+  alias zbtw="zig build test --watch"
+  alias zbtwi="zig build test --watch -fincremental"
 
 if command -v pipx &> /dev/null
 then
