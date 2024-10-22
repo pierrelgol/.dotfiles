@@ -32,7 +32,7 @@ line-number                        = "relative"
 middle-click-paste                 = true
 mouse                              = true
 preview-completion-insert          = true
-rulers                             = [80]
+rulers                             = [120]
 scroll-lines                       = 5
 scrolloff                          = 5
 text-width                         = 80
@@ -109,6 +109,8 @@ C-j      = ["extend_to_line_bounds","delete_selection", "move_line_down","paste_
 C-b      = ["goto_line_start"]
 C-e      = ["goto_line_end"]
 "*"      = ["move_prev_word_start", "move_next_word_end", "search_selection"]
+A-x      = "extend_to_line_bounds"
+X        = ["extend_line_up", "extend_to_line_bounds"]
 
 [keys.normal.space]
 ","      = ["save_selection", "goto_line_end", ":append-output echo ','", "collapse_selection", "delete_selection", "jump_backward"]
