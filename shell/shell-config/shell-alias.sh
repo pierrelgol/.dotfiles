@@ -2,7 +2,14 @@
 
 source $HOME/shell-config/shell-function.sh
 
-YAZI_FUNCTION=ya
+YAZI_FUNCTION=yaz
+alias nn="yaz"
+
+if command -v nvim &> /dev/null
+then
+else
+  alias nvim="vim"
+fi
 
 if command -v bat &> /dev/null
 then

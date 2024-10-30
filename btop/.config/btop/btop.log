@@ -320,3 +320,158 @@
 2024/08/23 (02:14:40) | WARNING: ROCm SMI: Failed to get VRAM utilization
 2024/08/23 (02:14:40) | WARNING: ROCm SMI: Failed to get GPU power usage
 2024/08/23 (02:14:40) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2024/10/19 (12:50:01) | ===> btop++ v.1.3.2
+2024/10/19 (12:50:01) | INFO: Logger set to INFO
+2024/10/19 (12:50:01) | INFO: Running on /dev/pts/0
+2024/10/19 (12:50:01) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/10/19 (12:50:01) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/19 (12:50:01) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/10/19 (12:54:09) | INFO: Quitting! Runtime: 00:04:08
+
+2024/10/19 (20:20:55) | ===> btop++ v.1.3.2
+2024/10/19 (20:20:55) | INFO: Logger set to INFO
+2024/10/19 (20:20:55) | INFO: Running on /dev/pts/1
+2024/10/19 (20:20:55) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/10/19 (20:20:55) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/19 (20:20:55) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+
+2024/10/20 (08:16:50) | ===> btop++ v.1.3.2
+2024/10/20 (08:16:50) | INFO: Logger set to INFO
+2024/10/20 (08:16:50) | INFO: Running on /dev/pts/1
+2024/10/20 (08:16:50) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/10/20 (08:16:50) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/20 (08:16:50) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/10/20 (08:16:55) | INFO: Quitting! Runtime: 00:00:05
+
+2024/10/20 (08:23:52) | ===> btop++ v.1.3.2
+2024/10/20 (08:23:52) | INFO: Logger set to INFO
+2024/10/20 (08:23:52) | INFO: Running on /dev/pts/0
+2024/10/20 (08:23:52) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/10/20 (08:23:52) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/20 (08:23:52) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+
+2024/10/20 (08:27:32) | ===> btop++ v.1.3.2
+2024/10/20 (08:27:32) | INFO: Logger set to INFO
+2024/10/20 (08:27:32) | INFO: Running on /dev/pts/0
+2024/10/20 (08:27:32) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/10/20 (08:27:32) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/20 (08:27:32) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/10/20 (08:27:42) | INFO: Quitting! Runtime: 00:00:10
+
+2024/10/21 (17:18:57) | ===> btop++ v.1.3.2
+2024/10/21 (17:18:57) | INFO: Logger set to INFO
+2024/10/21 (17:18:57) | INFO: Running on /dev/pts/4
+2024/10/21 (17:18:57) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/10/21 (17:18:57) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/21 (17:18:57) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+
+2024/10/21 (22:48:50) | ===> btop++ v.1.3.2
+2024/10/21 (22:48:50) | INFO: Logger set to INFO
+2024/10/21 (22:48:50) | INFO: Running on /dev/pts/1
+2024/10/21 (22:48:50) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/10/21 (22:48:50) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/21 (22:48:50) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/10/21 (22:49:06) | INFO: Quitting! Runtime: 00:00:16
+
+2024/10/23 (12:15:46) | ===> btop++ v.1.3.2
+2024/10/23 (12:15:46) | INFO: Logger set to INFO
+2024/10/23 (12:15:46) | INFO: Running on /dev/pts/1
+2024/10/23 (12:15:46) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/10/23 (12:15:46) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/23 (12:15:46) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/10/23 (12:16:38) | INFO: Quitting! Runtime: 00:00:52
+
+2024/10/23 (13:54:25) | ===> btop++ v.1.3.2
+2024/10/23 (13:54:25) | INFO: Logger set to INFO
+2024/10/23 (13:54:25) | INFO: Running on /dev/pts/2
+2024/10/23 (13:54:25) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/10/23 (13:54:25) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/23 (13:54:25) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/10/23 (14:08:18) | INFO: Quitting! Runtime: 00:13:53
+
+2024/10/28 (17:55:31) | ===> btop++ v.1.3.2
+2024/10/28 (17:55:31) | INFO: Logger set to INFO
+2024/10/28 (17:55:31) | INFO: Running on /dev/pts/4
+2024/10/28 (17:55:31) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/10/28 (17:55:31) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/28 (17:55:31) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/10/28 (17:55:46) | INFO: Quitting! Runtime: 00:00:15
+
+2024/10/28 (18:02:16) | ===> btop++ v.1.3.2
+2024/10/28 (18:02:16) | INFO: Logger set to INFO
+2024/10/28 (18:02:16) | INFO: Running on /dev/pts/5
+2024/10/28 (18:02:16) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/10/28 (18:02:16) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/28 (18:02:16) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/10/28 (18:03:07) | INFO: Quitting! Runtime: 00:00:51
+
+2024/10/28 (18:03:19) | ===> btop++ v.1.3.2
+2024/10/28 (18:03:19) | INFO: Logger set to INFO
+2024/10/28 (18:03:19) | INFO: Running on /dev/pts/1
+2024/10/28 (18:03:19) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/10/28 (18:03:19) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/28 (18:03:19) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/10/28 (18:03:55) | INFO: Quitting! Runtime: 00:00:36
+
+2024/10/28 (18:11:16) | ===> btop++ v.1.3.2
+2024/10/28 (18:11:16) | INFO: Logger set to INFO
+2024/10/28 (18:11:16) | INFO: Running on /dev/pts/5
+2024/10/28 (18:11:16) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/10/28 (18:11:16) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/28 (18:11:16) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/10/28 (18:11:42) | INFO: Quitting! Runtime: 00:00:26
+
+2024/10/28 (18:11:57) | ===> btop++ v.1.3.2
+2024/10/28 (18:11:57) | INFO: Logger set to INFO
+2024/10/28 (18:11:57) | INFO: Running on /dev/pts/6
+2024/10/28 (18:11:57) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/10/28 (18:11:57) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/28 (18:11:57) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+
+2024/10/28 (18:12:05) | ===> btop++ v.1.3.2
+2024/10/28 (18:12:05) | INFO: Logger set to INFO
+2024/10/28 (18:12:05) | INFO: Running on /dev/pts/7
+2024/10/28 (18:12:05) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/10/28 (18:12:05) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/28 (18:12:05) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/10/28 (18:12:15) | INFO: Quitting! Runtime: 00:00:18
+
+2024/10/28 (18:21:44) | ===> btop++ v.1.3.2
+2024/10/28 (18:21:44) | INFO: Logger set to INFO
+2024/10/28 (18:21:44) | INFO: Running on /dev/pts/8
+2024/10/28 (18:21:44) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/10/28 (18:21:44) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/28 (18:21:44) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/10/28 (18:37:39) | INFO: Quitting! Runtime: 00:15:55
+2024/10/28 (20:12:15) | INFO: Quitting! Runtime: 02:00:10
+
+2024/10/29 (13:22:52) | ===> btop++ v.1.3.2
+2024/10/29 (13:22:52) | INFO: Logger set to INFO
+2024/10/29 (13:22:52) | INFO: Running on /dev/pts/2
+2024/10/29 (13:22:52) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/10/29 (13:22:52) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/29 (13:22:52) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/10/29 (13:23:01) | INFO: Quitting! Runtime: 00:00:09
+
+2024/10/30 (02:19:47) | ===> btop++ v.1.3.2
+2024/10/30 (02:19:47) | INFO: Logger set to INFO
+2024/10/30 (02:19:47) | INFO: Running on /dev/pts/2
+2024/10/30 (02:19:47) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/10/30 (02:19:47) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/30 (02:19:47) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+
+2024/10/30 (07:40:29) | ===> btop++ v.1.3.2
+2024/10/30 (07:40:29) | INFO: Logger set to INFO
+2024/10/30 (07:40:29) | INFO: Running on /dev/pts/2
+2024/10/30 (07:40:29) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/10/30 (07:40:29) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/30 (07:40:29) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/10/30 (07:41:01) | INFO: Quitting! Runtime: 00:00:32
+
+2024/10/30 (07:41:08) | ===> btop++ v.1.3.2
+2024/10/30 (07:41:08) | INFO: Logger set to INFO
+2024/10/30 (07:41:08) | INFO: Running on /dev/pts/3
+2024/10/30 (07:41:08) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/10/30 (07:41:08) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/30 (07:41:08) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory

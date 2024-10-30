@@ -1,58 +1,40 @@
 [[language]]
-name = "gas"
-scope = "source.gas"
-file-types = ["s"]
-injection-regex = "gas"
-comment-token = "#"
+auto-format = true
+comment-token = "//"
+file-types = ["zig"]
 indent = { tab-width = 8, unit = "\t" }
-formatter = { command = "asmfmt", args = [""]}
-language-servers = ["asm-lsp"]
+language-servers = ["zls"]
+name = "zig"
+roots = ["build.zig","build.zig.zon", "zls.build.json"]
+scope = "source.zig"
 
-[[grammar]]
-name = "gas"
-source = { git = "https://github.com/sirius94/tree-sitter-gas", rev = "60f443646b20edee3b7bf18f3a4fb91dc214259a" }
-
-[language-server.asm-lsp]
-command = "asm-lsp"
+[language-server.zls]
+command = "zls"
 
 [[language]]
-name = "c"
-scope = "source.c"
-file-types = ["c","h"]
-roots = ["Makefile","run.sh","build.zig"]
+auto-format = true
 block-comment-tokens = {start = "/*", end = "*/"}
-indent = { tab-width = 8, unit = "\t" }
-formatter = { command = "clang-format", args = [""]}
 diagnostic-severity = "error"
-auto-format = true
+file-types = ["c","h"]
+indent = { tab-width = 8, unit = "\t" }
 language-servers = ["clangd"]
-# formatter = { command = "pipx run c_formatter_42", args = [""]}
+name = "c"
+roots = ["Makefile","run.sh","build.zig"]
+scope = "source.c"
 
 [[language]]
-name = "cpp"
-scope = "source.cpp"
-file-types = ["cpp","hpp"]
-roots = ["Makefile","run.sh","build.zig"]
-diagnostic-severity = "error"
 auto-format = true
+diagnostic-severity = "error"
+file-types = ["cpp","hpp"]
 indent = { tab-width = 8, unit = "\t" }
 language-servers = ["clangd"]
+name = "cpp"
+roots = ["Makefile","run.sh","build.zig"]
+scope = "source.cpp"
 
 [language-server.clangd]
 command = "clangd"
 
-[[language]]
-name = "zig"
-scope = "source.zig"
-file-types = ["zig"]
-roots = ["build.zig","build.zig.zon", "zls.build.json"]
-auto-format = true
-comment-token = "//"
-indent = { tab-width = 8, unit = "\t" }
-language-servers = ["zls"]
-
-[language-server.zls]
-command = "zls"
 
 
 
@@ -71,7 +53,7 @@ block-comment-tokens = [
   { start = "/*!", end = "*/" },
 ]
 language-servers = [ "rust-analyzer" ]
-indent = { tab-width = 4, unit = "    " }
+indent = { tab-width = 8, unit = "\t" }
 persistent-diagnostic-sources = ["rustc", "clippy"]
 
 [language.auto-pairs]
@@ -81,6 +63,20 @@ persistent-diagnostic-sources = ["rustc", "clippy"]
 '"' = '"'
 '`' = '`'
 
+[[language]]
+name = "gas"
+scope = "source.gas"
+file-types = ["s"]
+injection-regex = "gas"
+comment-token = "#"
+indent = { tab-width = 8, unit = "\t" }
+formatter = { command = "asmfmt", args = [""]}
+language-servers = ["asm-lsp"]
 
+[[grammar]]
+name = "gas"
+source = { git = "https://github.com/sirius94/tree-sitter-gas", rev = "60f443646b20edee3b7bf18f3a4fb91dc214259a" }
 
+[language-server.asm-lsp]
+command = "asm-lsp"
 

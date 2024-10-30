@@ -5,7 +5,7 @@
 ###################
 # THEME           #
 ###################
-theme = "rose_pine"
+theme = "dark_plus"
 
 ###################
 # CONFIG          #
@@ -35,7 +35,7 @@ preview-completion-insert          = true
 rulers                             = [120]
 scroll-lines                       = 5
 scrolloff                          = 5
-text-width                         = 80
+text-width                         = 120
 true-color                         = true
 undercurl                          = true
 

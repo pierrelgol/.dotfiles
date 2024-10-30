@@ -4,7 +4,6 @@
 # ATUIN CONFIG                                                                 #
 ################################################################################
 
-#compdef atuin
 autoload -U is-at-least
 
 _atuin() {

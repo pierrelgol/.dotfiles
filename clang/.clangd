@@ -1,6 +1,4 @@
 CompileFlags:
-  Add: [-Wall, -Werror, -Weverything, -Wno-missing-prototypes]
+  Add: [-Wall, -Werror, -Wextra]
   Remove: -mabi
-Diagnostics:
-  ClangTidy:
-    Add: [performance*]
+
