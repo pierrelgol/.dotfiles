@@ -63,6 +63,15 @@ persistent-diagnostic-sources = ["rustc", "clippy"]
 '"' = '"'
 '`' = '`'
 
+
+[language-server.rust-analyzer]
+command = "rust-analyzer"
+
+[language-server.rust-analyzer.config]
+cachePriming.enable = false
+diagnostics.experimental.enable = true
+
+
 [[language]]
 name = "gas"
 scope = "source.gas"
