@@ -1,6 +1,5 @@
 [[language]]
 auto-format = true
-comment-token = "//"
 file-types = ["zig"]
 indent = { tab-width = 8, unit = "\t" }
 language-servers = ["zls"]
@@ -13,7 +12,6 @@ command = "zls"
 
 [[language]]
 auto-format = true
-block-comment-tokens = {start = "/*", end = "*/"}
 diagnostic-severity = "error"
 file-types = ["c","h"]
 indent = { tab-width = 8, unit = "\t" }
@@ -46,12 +44,6 @@ file-types = ["rs"]
 roots = ["Cargo.toml", "Cargo.lock"]
 shebangs = ["rust-script", "cargo"]
 auto-format = true
-comment-tokens = ["//", "///", "//!"]
-block-comment-tokens = [
-  { start = "/*", end = "*/" },
-  { start = "/**", end = "*/" },
-  { start = "/*!", end = "*/" },
-]
 language-servers = [ "rust-analyzer" ]
 indent = { tab-width = 8, unit = "\t" }
 persistent-diagnostic-sources = ["rustc", "clippy"]
@@ -77,7 +69,6 @@ name = "gas"
 scope = "source.gas"
 file-types = ["s"]
 injection-regex = "gas"
-comment-token = "#"
 indent = { tab-width = 8, unit = "\t" }
 formatter = { command = "asmfmt", args = [""]}
 language-servers = ["asm-lsp"]
