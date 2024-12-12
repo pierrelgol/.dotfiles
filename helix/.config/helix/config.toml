@@ -7,20 +7,23 @@
 ###################
 # theme = "fleet_dark"
 # theme = "github_dark"
-theme = "rose_pine"
+# theme = "rose_pine_dawn"
+# theme = "rose_pine"
+# theme = "rose_pine_moon"
+theme = "github_dark_high_contrast"
 
 ###################
 # CONFIG          #
 ###################
 
 [editor]
-auto-completion                    = false
-auto-format                        = true
+auto-completion                    = true
+auto-format                        = false
 auto-info                          = true
 bufferline                         = "always"
 completion-replace                 = true
 completion-timeout                 = 5
-completion-trigger-len             = 2
+completion-trigger-len             = 1
 cursorcolumn                       = true
 cursorline                         = true
 default-line-ending                = "lf"
@@ -39,6 +42,7 @@ text-width                         = 120
 true-color                         = true
 undercurl                          = true
 popup-border = "all"
+path-completion = true
 
 [editor.auto-save]
 focus-lost = true
@@ -64,7 +68,6 @@ ignore                             = true
 git-ignore                         = true
 git-global                         = true
 git-exclude                        = true
-max-depth                          = 5
 
 [editor.gutters]
 layout                             = ["line-numbers","diagnostics","diff"]
@@ -79,13 +82,13 @@ render                             = true
 skip-levels                        = 0
 
 [editor.lsp]
-auto-signature-help                = false
-display-inlay-hints                = false
-display-messages                   = false
-display-signature-help-docs        = false
+auto-signature-help                = true
+display-inlay-hints                = true
+display-messages                   = true
+display-signature-help-docs        = true
 enable                             = true
 goto-reference-include-declaration = true
-snippets                           = false
+snippets                           = true
 
 [editor.search]
 smart-case                         = true
@@ -179,3 +182,15 @@ N        = ["extend_search_prev"]
 
 [keys.select."["]
 "["      = ["goto_next_paragraph"]
+
+[keys.normal."^"]
+j = ":register-mark j"
+k = ":register-mark k"
+l = ":register-mark l"
+";" = ":register-mark ;"
+
+[keys.normal."$"]
+j = ":goto-mark j"
+k = ":goto-mark k"
+l = ":goto-mark l"
+";" = ":goto-mark ;"
