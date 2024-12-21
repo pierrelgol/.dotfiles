@@ -37,6 +37,8 @@ fi
   alias zbrwi="zig build run --watch -fincremental"
   alias zbtw="zig build test --watch"
   alias zbtwi="zig build test --watch -fincremental"
+  alias zbo="zig build -Doptimize=ReleaseFast"
+  alias zbor="zig build -Doptimize=ReleaseFast run"
 
 if command -v pipx &> /dev/null
 then

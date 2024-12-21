@@ -8,9 +8,9 @@
 # theme = "fleet_dark"
 # theme = "github_dark"
 # theme = "rose_pine_dawn"
-# theme = "rose_pine"
+theme = "rose_pine"
 # theme = "rose_pine_moon"
-theme = "github_dark_high_contrast"
+# theme = "github_dark_high_contrast"
 
 ###################
 # CONFIG          #
@@ -182,15 +182,3 @@ N        = ["extend_search_prev"]
 
 [keys.select."["]
 "["      = ["goto_next_paragraph"]
-
-[keys.normal."^"]
-j = ":register-mark j"
-k = ":register-mark k"
-l = ":register-mark l"
-";" = ":register-mark ;"
-
-[keys.normal."$"]
-j = ":goto-mark j"
-k = ":goto-mark k"
-l = ":goto-mark l"
-";" = ":goto-mark ;"

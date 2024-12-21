@@ -74,5 +74,6 @@ zstyle ':fzf-tab:complete:cd:__zoxide_z:*' fzf-preview 'ls $realpath'
 eval "$(zoxide init zsh)"
 eval "$(atuin init zsh)"
 eval "$(fzf --zsh)"
+eval $(thefuck --alias)
 eval $(keychain --eval --agents ssh github school)
 

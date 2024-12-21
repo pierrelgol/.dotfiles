@@ -2,7 +2,7 @@
 auto-format = true
 file-types = ["zig"]
 indent = { tab-width = 8, unit = "\t" }
-language-servers = ["zls"]
+language-servers = ["zls", "llm-lsp"]
 name = "zig"
 roots = ["build.zig","build.zig.zon", "zls.build.json"]
 scope = "source.zig"
@@ -10,12 +10,17 @@ scope = "source.zig"
 [language-server.zls]
 command = "zls"
 
+[language-server.llm-lsp]
+command = "llm-lsp"
+args = ["server", "-p", "codeium"]
+
+
 [[language]]
 auto-format = true
 diagnostic-severity = "error"
 file-types = ["c","h"]
 indent = { tab-width = 8, unit = "\t" }
-language-servers = ["clangd"]
+language-servers = ["clangd", "llm-lsp"]
 name = "c"
 roots = ["Makefile","run.sh","build.zig"]
 scope = "source.c"
@@ -25,7 +30,7 @@ auto-format = true
 diagnostic-severity = "error"
 file-types = ["cpp","hpp"]
 indent = { tab-width = 8, unit = "\t" }
-language-servers = ["clangd"]
+language-servers = ["clangd", "llm-lsp"]
 name = "cpp"
 roots = ["Makefile","run.sh","build.zig"]
 scope = "source.cpp"
@@ -44,7 +49,7 @@ file-types = ["rs"]
 roots = ["Cargo.toml", "Cargo.lock"]
 shebangs = ["rust-script", "cargo"]
 auto-format = true
-language-servers = [ "rust-analyzer" ]
+language-servers = [ "rust-analyzer" , "llm-lsp"]
 indent = { tab-width = 8, unit = "\t" }
 persistent-diagnostic-sources = ["rustc", "clippy"]
 
