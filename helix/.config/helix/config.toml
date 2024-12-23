@@ -91,7 +91,7 @@ goto-reference-include-declaration = true
 snippets                           = true
 
 [editor.search]
-smart-case                         = true
+smart-case                         = false
 wrap-around                        = true
 
 [editor.smart-tab]
