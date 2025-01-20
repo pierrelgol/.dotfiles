@@ -13,50 +13,11 @@ export USER42="pollivie"
 export EMAIL42="pollivie@student.42.fr"
 export SCHOOL42="42"
 export CLANGD_FLAGS="--enable-config --header-insertion=never"
-
-################################################################################
-# CC                                                                           #
-################################################################################
-
-if command -v zig > /dev/null
-then
-  export CC="clang"
-elif command -v clang > /dev/null
-then
-  export CC="clang"
-elif command -v gcc > /dev/null
-then
-  export CC="gcc"
-else
-  echo "No suitable C compiler found. Please install zig, clang, or gcc."
-fi
-
-################################################################################
-# EDITOR                                                                       #
-################################################################################
-
-if command -v hx > /dev/null
-then
-  export EDITOR="hx"
-elif command -v nvim > /dev/null
-then
-  export EDITOR="nvim"
-elif command -v vim > /dev/null
-then
-  export EDITOR="vim"
-elif command -v vi > /dev/null
-then
-  export EDITOR="vi"
-elif command -v nano > /dev/null
-then
-  export EDITOR="nano"
-else
-  echo "No suitable editor found. Please install hx, nvim, vim, vi, or nano."
-fi
-
-################################################################################
-# XDG_SETUP                                                                    #
-################################################################################
+export MAKEFLAG="-j8"
+export MAKEFLAGS="-j8"
+export CC="clang"
+export CXX="clang++"
+export EDITOR="hx"
 
 export XDG_DATA_HOME="${XDG_DATA_HOME:-$HOME/.local/share}"
 create_dir_if_not_exists "$XDG_DATA_HOME"
@@ -93,5 +54,3 @@ path+=('/home/pollivie/local/repo')
 path+=('/home/pollivie/.local/bin')
 path+=('/home/pollivie/.local/share/applications')
 path+=('/home/pollivie/.cargo/bin')
-export BUN_INSTALL="$HOME/.bun"
-export PATH=$BUN_INSTALL/bin:$PATH

@@ -14,7 +14,6 @@ command = "zls"
 command = "llm-lsp"
 args = ["server", "-p", "codeium"]
 
-
 [[language]]
 auto-format = true
 diagnostic-severity = "error"
@@ -37,9 +36,6 @@ scope = "source.cpp"
 
 [language-server.clangd]
 command = "clangd"
-
-
-
 
 [[language]]
 name = "rust"

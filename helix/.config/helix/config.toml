@@ -18,7 +18,7 @@ theme = "rose_pine"
 
 [editor]
 auto-completion                    = true
-auto-format                        = false
+auto-format                        = true
 auto-info                          = true
 bufferline                         = "always"
 completion-replace                 = true
@@ -35,14 +35,15 @@ line-number                        = "relative"
 middle-click-paste                 = true
 mouse                              = true
 preview-completion-insert          = true
-rulers                             = [120]
+rulers                             = [80]
 scroll-lines                       = 5
 scrolloff                          = 5
-text-width                         = 120
+text-width                         = 80
 true-color                         = true
 undercurl                          = true
 popup-border = "all"
 path-completion = true
+end-of-line-diagnostics = "hint"
 
 [editor.auto-save]
 focus-lost = true
@@ -50,8 +51,7 @@ after-delay.enable = true
 after-delay.timeout = 3000
 
 [editor.inline-diagnostics]
-cursor-line = "hint"
-other-lines = "disable"
+cursor-line = "warning"
 
 
 [editor.cursor-shape]
@@ -116,15 +116,10 @@ mode.select                        = "SELECT"
 
 [keys.normal]
 esc      = ["collapse_selection", "keep_primary_selection"]
-ret      = ["goto_word"]
 S-ret    = ["extend_to_word", "select_mode"]
 S-tab    = [":bp"]
+ret      = ["goto_word"]
 tab      = [":bn"]
-S-s      = ["search_selection","select_mode","make_search_word_bounded"]
-h        = ["move_char_left"]
-j        = ["move_line_down"]
-l        = ["move_char_right"]
-k        = ["move_line_up"]
 C-h      = ["move_prev_sub_word_start"]
 C-l      = ["move_next_sub_word_start"]
 C-k      = ["extend_to_line_bounds","delete_selection", "move_line_up","paste_before"]
@@ -136,9 +131,15 @@ C-n      = ["expand_selection"]
 A-x      = ["extend_to_line_bounds"]
 S-v      = ["extend_to_line_bounds", "extend_to_line_bounds", "select_mode"]
 X        = ["extend_line_up", "extend_to_line_bounds"]
-S-f      = ["select_references_to_symbol_under_cursor"]
 "*"      = ["move_prev_word_start", "move_next_word_end", "search_selection"]
-";"      = ["insert_register"]
+C-g = [
+    ":write-all",
+    ":new",
+    ":insert-output lazygit",
+    ":buffer-close!",
+    ":redraw",
+    ":reload-all"
+]
 
 
 [keys.normal.space.t]
@@ -153,10 +154,7 @@ l        = ":o ~/.config/helix/languages.toml"
 o        = ":config-open"
 r        = [":w", ":config-reload",":reload-all"]
 
-
 [keys.insert]
-A-j      = ["normal_mode","extend_to_line_bounds","delete_selection", "move_line_down","paste_before", "insert_mode"]
-A-k      = ["normal_mode","extend_to_line_bounds","delete_selection", "move_line_up","paste_before", "insert_mode"]
 C-b      = ["insert_at_line_start"]
 C-e      = ["insert_at_line_end"]
 C-h      = ["move_char_left"]
@@ -165,15 +163,11 @@ C-k      = ["move_line_up"]
 C-l      = ["move_char_right"]
 
 [keys.select]
-pageup   = ["half_page_up"]
-pagedown = ["half_page_down"]
-"C-u"    = ["half_page_up"]
-"C-d"    = ["half_page_down"]
 esc      = ["collapse_selection", "normal_mode"]
-c        = ["trim_selections", "change_selection"]
+c        = ["trim_selections"]
 ";"      = ["flip_selections"]
-","      = ["repeat_last_motion"]
-n        = ["extend_search_next"]
+","      = ["extend_search_next"]
+n        = ["repeat_last_motion"]
 N        = ["extend_search_prev"]
 "C-r"      = ["reverse_selection_contents"]
 
@@ -182,3 +176,4 @@ N        = ["extend_search_prev"]
 
 [keys.select."["]
 "["      = ["goto_next_paragraph"]
+

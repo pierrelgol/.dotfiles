@@ -684,3 +684,254 @@
 2024/12/21 (16:59:32) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
 2024/12/21 (16:59:32) | DEBUG: Shared::init() : Initialized.
 2024/12/21 (17:02:20) | INFO: Quitting! Runtime: 00:02:48
+
+2024/12/24 (17:19:41) | ===> btop++ v.1.4.0
+2024/12/24 (17:19:41) | INFO: Logger set to DEBUG
+2024/12/24 (17:19:41) | DEBUG: Using locale en_US.UTF-8
+2024/12/24 (17:19:41) | INFO: Running on /dev/pts/2
+2024/12/24 (17:19:41) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/12/24 (17:19:41) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/24 (17:19:41) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/12/24 (17:19:41) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/12/24 (17:19:41) | DEBUG: Shared::init() : Initialized.
+2024/12/24 (17:19:47) | INFO: Quitting! Runtime: 00:00:06
+
+2024/12/24 (17:20:36) | ===> btop++ v.1.4.0
+2024/12/24 (17:20:36) | INFO: Logger set to DEBUG
+2024/12/24 (17:20:36) | DEBUG: Using locale en_US.UTF-8
+2024/12/24 (17:20:36) | INFO: Running on /dev/pts/2
+2024/12/24 (17:20:36) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/12/24 (17:20:36) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/24 (17:20:36) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/12/24 (17:20:36) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/12/24 (17:20:36) | DEBUG: Shared::init() : Initialized.
+
+2024/12/25 (12:26:15) | ===> btop++ v.1.4.0
+2024/12/25 (12:26:15) | INFO: Logger set to DEBUG
+2024/12/25 (12:26:15) | DEBUG: Using locale en_US.UTF-8
+2024/12/25 (12:26:15) | INFO: Running on /dev/pts/4
+2024/12/25 (12:26:15) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/12/25 (12:26:15) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/25 (12:26:15) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/12/25 (12:26:15) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/12/25 (12:26:15) | DEBUG: Shared::init() : Initialized.
+2024/12/25 (12:26:24) | INFO: Quitting! Runtime: 00:00:09
+
+2024/12/25 (18:04:48) | ===> btop++ v.1.4.0
+2024/12/25 (18:04:48) | INFO: Logger set to DEBUG
+2024/12/25 (18:04:48) | DEBUG: Using locale en_US.UTF-8
+2024/12/25 (18:04:48) | INFO: Running on /dev/pts/1
+2024/12/25 (18:04:48) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/12/25 (18:04:48) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/25 (18:04:48) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/12/25 (18:04:48) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/12/25 (18:04:48) | DEBUG: Shared::init() : Initialized.
+2024/12/25 (18:05:07) | INFO: Quitting! Runtime: 00:00:19
+
+2024/12/25 (18:05:18) | ===> btop++ v.1.4.0
+2024/12/25 (18:05:18) | INFO: Logger set to DEBUG
+2024/12/25 (18:05:18) | DEBUG: Using locale en_US.UTF-8
+2024/12/25 (18:05:18) | INFO: Running on /dev/pts/1
+2024/12/25 (18:05:18) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/12/25 (18:05:18) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/25 (18:05:18) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/12/25 (18:05:18) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/12/25 (18:05:18) | DEBUG: Shared::init() : Initialized.
+2024/12/25 (18:05:43) | INFO: Quitting! Runtime: 00:00:25
+
+2024/12/26 (10:56:28) | ===> btop++ v.1.4.0
+2024/12/26 (10:56:28) | INFO: Logger set to DEBUG
+2024/12/26 (10:56:28) | DEBUG: Using locale en_US.UTF-8
+2024/12/26 (10:56:28) | INFO: Running on /dev/pts/2
+2024/12/26 (10:56:28) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/12/26 (10:56:28) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/26 (10:56:28) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/12/26 (10:56:28) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/12/26 (10:56:28) | DEBUG: Shared::init() : Initialized.
+2024/12/26 (11:57:34) | INFO: Quitting! Runtime: 01:01:06
+
+2024/12/26 (15:06:44) | ===> btop++ v.1.4.0
+2024/12/26 (15:06:44) | INFO: Logger set to DEBUG
+2024/12/26 (15:06:44) | DEBUG: Using locale en_US.UTF-8
+2024/12/26 (15:06:44) | INFO: Running on /dev/pts/4
+2024/12/26 (15:06:44) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/12/26 (15:06:44) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/26 (15:06:44) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/12/26 (15:06:44) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/12/26 (15:06:44) | DEBUG: Shared::init() : Initialized.
+2024/12/26 (16:37:18) | INFO: Quitting! Runtime: 01:30:34
+
+2024/12/28 (21:15:58) | ===> btop++ v.1.4.0
+2024/12/28 (21:15:58) | INFO: Logger set to DEBUG
+2024/12/28 (21:15:58) | DEBUG: Using locale en_US.UTF-8
+2024/12/28 (21:15:58) | INFO: Running on /dev/pts/1
+2024/12/28 (21:15:58) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/12/28 (21:15:58) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/28 (21:15:58) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/12/28 (21:15:58) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/12/28 (21:15:58) | DEBUG: Shared::init() : Initialized.
+2024/12/28 (21:16:27) | INFO: Quitting! Runtime: 00:00:29
+
+2024/12/28 (21:19:13) | ===> btop++ v.1.4.0
+2024/12/28 (21:19:13) | INFO: Logger set to DEBUG
+2024/12/28 (21:19:13) | DEBUG: Using locale en_US.UTF-8
+2024/12/28 (21:19:13) | INFO: Running on /dev/pts/1
+2024/12/28 (21:19:13) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/12/28 (21:19:13) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/28 (21:19:13) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/12/28 (21:19:13) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/12/28 (21:19:13) | DEBUG: Shared::init() : Initialized.
+
+2024/12/28 (21:33:52) | ===> btop++ v.1.4.0
+2024/12/28 (21:33:52) | INFO: Logger set to DEBUG
+2024/12/28 (21:33:52) | DEBUG: Using locale en_US.UTF-8
+2024/12/28 (21:33:52) | INFO: Running on /dev/pts/0
+2024/12/28 (21:33:52) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/12/28 (21:33:52) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/28 (21:33:52) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/12/28 (21:33:52) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/12/28 (21:33:52) | DEBUG: Shared::init() : Initialized.
+
+2024/12/29 (10:11:36) | ===> btop++ v.1.4.0
+2024/12/29 (10:11:36) | INFO: Logger set to DEBUG
+2024/12/29 (10:11:36) | DEBUG: Using locale en_US.UTF-8
+2024/12/29 (10:11:36) | INFO: Running on /dev/pts/2
+2024/12/29 (10:11:36) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/12/29 (10:11:36) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/29 (10:11:36) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/12/29 (10:11:36) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/12/29 (10:11:36) | DEBUG: Shared::init() : Initialized.
+2024/12/29 (11:01:08) | DEBUG: Writing new config file
+2024/12/29 (11:01:08) | INFO: Quitting! Runtime: 00:49:32
+
+2024/12/29 (11:04:19) | ===> btop++ v.1.4.0
+2024/12/29 (11:04:19) | INFO: Logger set to DEBUG
+2024/12/29 (11:04:19) | DEBUG: Using locale en_US.UTF-8
+2024/12/29 (11:04:19) | INFO: Running on /dev/pts/3
+2024/12/29 (11:04:19) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/12/29 (11:04:19) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/29 (11:04:19) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/12/29 (11:04:19) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/12/29 (11:04:19) | DEBUG: Shared::init() : Initialized.
+2024/12/29 (11:04:27) | INFO: Quitting! Runtime: 00:00:08
+
+2024/12/29 (11:04:55) | ===> btop++ v.1.4.0
+2024/12/29 (11:04:55) | INFO: Logger set to DEBUG
+2024/12/29 (11:04:55) | DEBUG: Using locale en_US.UTF-8
+2024/12/29 (11:04:55) | INFO: Running on /dev/pts/3
+2024/12/29 (11:04:55) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2024/12/29 (11:04:55) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/29 (11:04:55) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/12/29 (11:04:55) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/12/29 (11:04:55) | DEBUG: Shared::init() : Initialized.
+
+2025/01/01 (15:11:37) | ===> btop++ v.1.4.0
+2025/01/01 (15:11:37) | INFO: Logger set to DEBUG
+2025/01/01 (15:11:37) | DEBUG: Using locale en_US.UTF-8
+2025/01/01 (15:11:37) | INFO: Running on /dev/pts/4
+2025/01/01 (15:11:37) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2025/01/01 (15:11:37) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/01 (15:11:37) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2025/01/01 (15:11:37) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2025/01/01 (15:11:37) | DEBUG: Shared::init() : Initialized.
+
+2025/01/05 (01:25:26) | ===> btop++ v.1.4.0
+2025/01/05 (01:25:26) | INFO: Logger set to DEBUG
+2025/01/05 (01:25:26) | DEBUG: Using locale en_US.UTF-8
+2025/01/05 (01:25:26) | INFO: Running on /dev/pts/1
+2025/01/05 (01:25:26) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2025/01/05 (01:25:26) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/05 (01:25:26) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2025/01/05 (01:25:26) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2025/01/05 (01:25:26) | DEBUG: Shared::init() : Initialized.
+2025/01/05 (01:25:56) | DEBUG: Writing new config file
+2025/01/05 (01:25:56) | INFO: Quitting! Runtime: 00:00:30
+
+2025/01/05 (15:18:40) | ===> btop++ v.1.4.0
+2025/01/05 (15:18:40) | INFO: Logger set to DEBUG
+2025/01/05 (15:18:40) | DEBUG: Using locale en_US.UTF-8
+2025/01/05 (15:18:40) | INFO: Running on /dev/pts/3
+2025/01/05 (15:18:40) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2025/01/05 (15:18:40) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/05 (15:18:40) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2025/01/05 (15:18:40) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2025/01/05 (15:18:40) | DEBUG: Shared::init() : Initialized.
+2025/01/05 (19:19:31) | DEBUG: Writing new config file
+2025/01/05 (19:19:31) | INFO: Quitting! Runtime: 04:00:51
+
+2025/01/06 (14:14:44) | ===> btop++ v.1.4.0
+2025/01/06 (14:14:44) | INFO: Logger set to DEBUG
+2025/01/06 (14:14:44) | DEBUG: Using locale en_US.UTF-8
+2025/01/06 (14:14:44) | INFO: Running on /dev/pts/2
+2025/01/06 (14:14:44) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2025/01/06 (14:14:44) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/06 (14:14:44) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2025/01/06 (14:14:44) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2025/01/06 (14:14:44) | DEBUG: Shared::init() : Initialized.
+2025/01/06 (14:15:02) | INFO: Quitting! Runtime: 00:00:18
+
+2025/01/11 (10:22:45) | ===> btop++ v.1.4.0
+2025/01/11 (10:22:45) | INFO: Logger set to DEBUG
+2025/01/11 (10:22:45) | DEBUG: Using locale en_US.UTF-8
+2025/01/11 (10:22:45) | INFO: Running on /dev/pts/2
+2025/01/11 (10:22:45) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2025/01/11 (10:22:45) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/11 (10:22:45) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2025/01/11 (10:22:45) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2025/01/11 (10:22:45) | DEBUG: Shared::init() : Initialized.
+2025/01/11 (10:44:58) | INFO: Quitting! Runtime: 00:22:13
+
+2025/01/12 (00:02:34) | ===> btop++ v.1.4.0
+2025/01/12 (00:02:34) | INFO: Logger set to DEBUG
+2025/01/12 (00:02:34) | DEBUG: Using locale en_US.UTF-8
+2025/01/12 (00:02:34) | INFO: Running on /dev/pts/3
+2025/01/12 (00:02:34) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2025/01/12 (00:02:34) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/12 (00:02:34) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2025/01/12 (00:02:34) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2025/01/12 (00:02:34) | DEBUG: Shared::init() : Initialized.
+2025/01/12 (00:02:40) | INFO: Quitting! Runtime: 00:00:06
+
+2025/01/16 (15:53:51) | ===> btop++ v.1.4.0
+2025/01/16 (15:53:51) | INFO: Logger set to DEBUG
+2025/01/16 (15:53:51) | DEBUG: Using locale en_US.UTF-8
+2025/01/16 (15:53:51) | INFO: Running on /dev/pts/1
+2025/01/16 (15:53:51) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2025/01/16 (15:53:51) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/16 (15:53:51) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2025/01/16 (15:53:51) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2025/01/16 (15:53:51) | DEBUG: Shared::init() : Initialized.
+2025/01/16 (15:54:00) | INFO: Quitting! Runtime: 00:00:09
+
+2025/01/16 (15:57:46) | ===> btop++ v.1.4.0
+2025/01/16 (15:57:46) | INFO: Logger set to DEBUG
+2025/01/16 (15:57:46) | DEBUG: Using locale en_US.UTF-8
+2025/01/16 (15:57:46) | INFO: Running on /dev/pts/2
+2025/01/16 (15:57:46) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2025/01/16 (15:57:46) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/16 (15:57:46) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2025/01/16 (15:57:46) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2025/01/16 (15:57:46) | DEBUG: Shared::init() : Initialized.
+2025/01/16 (15:57:53) | INFO: Quitting! Runtime: 00:00:07
+
+2025/01/19 (18:08:02) | ===> btop++ v.1.4.0
+2025/01/19 (18:08:02) | INFO: Logger set to DEBUG
+2025/01/19 (18:08:02) | DEBUG: Using locale en_US.UTF-8
+2025/01/19 (18:08:02) | INFO: Running on /dev/pts/4
+2025/01/19 (18:08:02) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2025/01/19 (18:08:02) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/19 (18:08:02) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2025/01/19 (18:08:02) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2025/01/19 (18:08:02) | DEBUG: Shared::init() : Initialized.
+2025/01/19 (18:08:25) | INFO: Quitting! Runtime: 00:00:23
+
+2025/01/19 (19:03:24) | ===> btop++ v.1.4.0
+2025/01/19 (19:03:24) | INFO: Logger set to DEBUG
+2025/01/19 (19:03:24) | DEBUG: Using locale en_US.UTF-8
+2025/01/19 (19:03:24) | INFO: Running on /dev/pts/4
+2025/01/19 (19:03:24) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2025/01/19 (19:03:24) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/19 (19:03:24) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2025/01/19 (19:03:24) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2025/01/19 (19:03:24) | DEBUG: Shared::init() : Initialized.
+2025/01/19 (19:03:46) | INFO: Quitting! Runtime: 00:00:22

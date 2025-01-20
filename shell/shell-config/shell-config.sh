@@ -25,7 +25,6 @@ source "${ZINIT_HOME}/zinit.zsh"
 # PERSONAL CONFIG #
 ###################
 
-source $HOME/shell-config/shell-completion.sh
 source $HOME/shell-config/shell-function.sh
 source $HOME/shell-config/shell-alias.sh
 source $HOME/shell-config/shell-user.sh
