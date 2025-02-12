@@ -2,7 +2,7 @@
 auto-format = true
 file-types = ["zig"]
 indent = { tab-width = 8, unit = "\t" }
-language-servers = ["zls", "llm-lsp"]
+language-servers = ["zls"]
 name = "zig"
 roots = ["build.zig","build.zig.zon", "zls.build.json"]
 scope = "source.zig"
@@ -10,10 +10,13 @@ scope = "source.zig"
 [language-server.zls]
 command = "zls"
 
+<<<<<<< Updated upstream
 [language-server.llm-lsp]
 command = "llm-lsp"
 args = ["server", "-p", "codeium"]
 
+=======
+>>>>>>> Stashed changes
 [[language]]
 auto-format = true
 diagnostic-severity = "error"

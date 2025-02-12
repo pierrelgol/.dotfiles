@@ -685,6 +685,7 @@
 2024/12/21 (16:59:32) | DEBUG: Shared::init() : Initialized.
 2024/12/21 (17:02:20) | INFO: Quitting! Runtime: 00:02:48
 
+<<<<<<< Updated upstream
 2024/12/24 (17:19:41) | ===> btop++ v.1.4.0
 2024/12/24 (17:19:41) | INFO: Logger set to DEBUG
 2024/12/24 (17:19:41) | DEBUG: Using locale en_US.UTF-8
@@ -935,3 +936,21 @@
 2025/01/19 (19:03:24) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
 2025/01/19 (19:03:24) | DEBUG: Shared::init() : Initialized.
 2025/01/19 (19:03:46) | INFO: Quitting! Runtime: 00:00:22
+=======
+2025/01/14 (11:26:21) | ===> btop++ v.1.4.0
+2025/01/14 (11:26:21) | INFO: Logger set to DEBUG
+2025/01/14 (11:26:21) | DEBUG: Using locale en_US.UTF-8
+2025/01/14 (11:26:21) | INFO: Running on /dev/pts/1
+2025/01/14 (11:26:21) | INFO: Forcing tty mode: setting 16 color mode and using tty friendly graph symbols
+2025/01/14 (11:26:22) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2025/01/14 (11:26:22) | WARNING: NVML: Failed to get maximum GPU temperature, defaulting to 110°C: Not Supported
+2025/01/14 (11:26:22) | WARNING: NVML: Failed to get GPU utilization: Not Supported
+2025/01/14 (11:26:22) | WARNING: NVML: Failed to get GPU clock speed: Not Supported
+2025/01/14 (11:26:22) | WARNING: NVML: Failed to get VRAM clock speed: Not Supported
+2025/01/14 (11:26:22) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+2025/01/14 (11:26:22) | WARNING: NVML: Failed to get PCIe TX throughput: Not Supported
+2025/01/14 (11:26:22) | WARNING: NVML: Failed to get PCIe RX throughput: Not Supported
+2025/01/14 (11:26:22) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2025/01/14 (11:26:22) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2025/01/14 (11:26:22) | DEBUG: Shared::init() : Initialized.
+>>>>>>> Stashed changes
