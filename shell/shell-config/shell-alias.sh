@@ -6,7 +6,10 @@ YAZI_FUNCTION=yaz
 alias nn="yaz"
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 if command -v bat &> /dev/null
