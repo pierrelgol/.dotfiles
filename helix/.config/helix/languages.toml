@@ -10,16 +10,10 @@ scope = "source.zig"
 [language-server.zls]
 command = "zls"
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 [language-server.llm-lsp]
 command = "llm-lsp"
 args = ["server", "-p", "codeium"]
 
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 [[language]]
 auto-format = true
 diagnostic-severity = "error"

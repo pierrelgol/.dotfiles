@@ -5,13 +5,6 @@ source $HOME/shell-config/shell-function.sh
 YAZI_FUNCTION=yaz
 alias nn="yaz"
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 if command -v bat &> /dev/null
 then
   alias cat="bat"
